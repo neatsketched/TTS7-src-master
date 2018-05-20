@@ -5690,7 +5690,7 @@ CagedToonBattleThreeMaxTouchCage = 21
 CagedToonBattleThreeMaxAdvice = 106
 CashbotBossHadEnough = "That's it.  I've had enough of these pesky Sketcheds!"
 CashbotBossOuttaHere = "I've got a train to catch!"
-ResistanceToonName = 'Mata Hairy'
+ResistanceToonName = 'Very Hairy'
 ResistanceToonCongratulations = "You did it!  Congratulations!\x07You're an asset to the Resistance!\x07Here's a special phrase you can use in a tight spot:\x07%s\x07When you say it, %s.\x07But you can only use it once, so choose that time well!"
 ResistanceToonToonupInstructions = 'all the Sketcheds near you will gain %s Laff points'
 ResistanceToonToonupAllInstructions = 'all the Sketcheds near you will gain full Laff points'
@@ -8965,7 +8965,7 @@ LawbotBossTaunts = ['%s, I find you in contempt of court!',
  'Your appeal has been rejected. I sentence you to sadness!',
  'Order in the court!']
 LawbotBossAreaAttackTaunt = "You're all in contempt of court!"
-WitnessToonName = 'Bumpy Bumblebehr'
+WitnessToonName = 'Banana Bigbear'
 WitnessToonPrepareBattleTwo = "Oh no! They're putting only Sevens on the jury!\x07Quick, use the cannons and shoot some Sketched jurors into the jury chairs.\x07We need %d to get a balanced scale."
 WitnessToonNoJuror = 'Oh oh, no Sketched jurors. This will be a tough trial.'
 WitnessToonOneJuror = 'Cool! There is 1 Sketched in the jury!'
@@ -9535,7 +9535,7 @@ BossbotBossPreTwo1 = "What's taking so long? "
 BossbotBossPreTwo2 = 'Get cracking and serve my banquet!'
 BossbotRTServeFood1 = 'Hehe, serve the food I place on these conveyor belts.'
 BossbotRTServeFood2 = 'If you serve a Seven three times in a row it will explode.'
-BossbotResistanceToonName = "Good ol' Gil Giggles"
+BossbotResistanceToonName = "Bad ol' Big Bubbles"
 BossbotPhase3Speech1 = "What's happening here?!"
 BossbotPhase3Speech2 = 'These waiters are Sketcheds!'
 BossbotPhase3Speech3 = 'Get them!!!'
