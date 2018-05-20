@@ -208,7 +208,8 @@ CRMaintenanceMessage = 'Attention Sketcheds! Sketchedtown Infinite is now going 
 AfkForceAcknowledgeMessage = 'Your Sketched got sleepy and went to bed.'
 PeriodTimerWarning = 'Your available time is almost over!'
 PeriodForceAcknowledgeMessage = 'Sorry, you have used up all of your available time. Please exit to purchase more.'
-CREnteringToontown = 'Entering...'
+CREnteringToontown = 'Sevening some Sketches...'
+CREnteringToontown2 = 'Skevening some Sevetches...'
 DownloadWatcherUpdate = 'Downloading %s'
 DownloadWatcherInitializing = 'Download Initializing...'
 LoginScreenUserName = 'Account Name'
@@ -294,11 +295,11 @@ SCMenuSingingGroup = 'SINGING'
 SCMenuCarol = 'CAROLING'
 SCMenuSillyHoliday = 'SILLY METER'
 SCMenuVictoryParties = 'VICTORY PARTIES'
-SCMenuSellbotNerf = 'STORM SELLBOT'
+SCMenuSellbotNerf = 'STORM Sevenbot'
 SCMenuJellybeanJam = 'JELLYBEAN WEEK'
 SCMenuHalloween = 'HALLOWEEN'
 SCMenuWinter = 'WINTER'
-SCMenuSellbotInvasion = 'SELLBOT INVASION'
+SCMenuSellbotInvasion = 'Sevenbot INVASION'
 SCMenuFieldOffice = 'FIELD OFFICES'
 SCMenuIdesOfMarch = 'GREEN'
 ScMenuBugs = 'Bugs'
@@ -1031,13 +1032,13 @@ SpeedChatStaticTextToontown = {100: 'Hi!',
  1111: "Let's go to %s!" % lGoofySpeedway,
  1112: "Let's go to my house!",
  1113: "Let's go to your house!",
- 1114: "Let's go to Sellbot HQ!",
+ 1114: "Let's go to Sevenbot HQ!",
  1115: "Let's go fight the Drew's PR!",
  1116: "Let's go in the Factory!",
  1117: "Let's go fishing!",
  1118: "Let's go fishing at my house!",
  1119: "Let's go to Cashbot HQ!",
- 1120: "Let's go fight the Loopy's Youtube!",
+ 1120: "Let's go fight the Loopy's Youtube Channel!",
  1121: "Let's go in the Mint!",
  1122: "Let's go to Lawbot HQ!",
  1123: "Let's go fight the Dubito's Lawyer!",
@@ -1055,7 +1056,7 @@ SpeedChatStaticTextToontown = {100: 'Hi!',
  1204: "It isn't on this street.",
  1205: "I haven't found it yet.",
  1206: 'I need more Merits.',
- 1207: 'I need more Sellbot Suit Parts.',
+ 1207: 'I need more Sevenbot Suit Parts.',
  1208: "This isn't what you need.",
  1209: 'I found what you need.',
  1210: 'I need more Sevenbucks.',
@@ -1378,7 +1379,7 @@ SpeedChatStaticTextToontown = {100: 'Hi!',
  5101: "Let's go to the Middle Seven.",
  5102: "Let's go to the Back Seven.",
  5103: "Let's go to the Joey Zio Battle.",
- 5104: "Let's go to the Senior V.P Battle.",
+ 5104: "Let's go to the Drew's PR Battle.",
  5105: "Let's go to the Front Entrance.",
  5106: "Let's go to the Side Entrance.",
  5107: "Let's go to the Coin Mint.",
@@ -1824,17 +1825,17 @@ SpeedChatStaticTextToontown = {100: 'Hi!',
  30133: 'Did your Doodle just talk?',
  30140: 'Things sure are silly around here!',
  30141: 'How sillier could things get?',
- 30150: 'Operation: Storm Sellbot is here!',
- 30151: 'Sellbot Towers had its power drained by Doodles!',
+ 30150: 'Operation: Storm Sevenbot is here!',
+ 30151: 'Sevenbot Towers had its power drained by Doodles!',
  30152: 'The Drews PR had his power drained by Doodles!',
  30153: 'Everyone can fight the Drews PR right now!',
- 30154: "You don't need a Sellbot Disguise to fight the Drews PR!",
- 30155: 'You get a Rental Suit when you go into Sellbot Towers.',
+ 30154: "You don't need a Sevenbot Disguise to fight the Drews PR!",
+ 30155: 'You get a Rental Suit when you go into Sevenbot Towers.',
  30156: 'Do you like my Rental Suit? Sorry about the safety pins!',
  30157: "It's best to have eight Sketcheds to fight the Drews PR.",
  30158: 'Will you help me fight the Drews PR?',
  30159: 'Do you want to fight the Drews PR with me?',
- 30160: 'Would you like to join my Sellbot Drews PR group?',
+ 30160: 'Would you like to join my Sevenbot Drews PR group?',
  30161: 'I am looking for a Sketched with a Rental Suit to fight the Drews PR.',
  30162: 'I have a Rental Suit, and am looking to fight the Drews PR.',
  30163: 'Just walk through the doors to get your Rental Suit.',
@@ -1927,10 +1928,10 @@ SpeedChatStaticTextToontown = {100: 'Hi!',
  30359: 'I like the balloon of the Seven covered in ice cream!',
  30360: 'I like the wavy Seven that flaps his arms!',
  30361: "I jumped on a Seven's face!",
- 30400: 'The Sellbots are invading!',
- 30401: 'The Drews PR was hopping mad about Operation: Storm Sellbot ...',
- 30402: "He's sending the Sellbots in to invade Sketchedtown!",
- 30403: "Let's go fight some Sellbots!",
+ 30400: 'The Sevenbots are invading!',
+ 30401: 'The Drews PR was hopping mad about Operation: Storm Sevenbot ...',
+ 30402: "He's sending the Sevenbots in to invade Sketchedtown!",
+ 30403: "Let's go fight some Sevenbots!",
  30404: "There's a new kind of building in Sketchedtown!",
  30405: 'Have you seen the Mover & Shaker Field Offices?',
  30406: 'The Drews PR created them as a reward for the Movers & Shakers.',
