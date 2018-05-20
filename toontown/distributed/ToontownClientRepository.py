@@ -332,10 +332,11 @@ class ToontownClientRepository(OTPClientRepository.OTPClientRepository):
         return
 
     def handleAvatarResponseMsg(self, avatarId, di):
+        Entertextchoice = random.choice([OTPLocalizer.CREnteringToontown, OTPLocalizer.CREnteringToontown2])
         self.cleanupWaitingForDatabase()
         dclass = self.dclassesByName['DistributedToon']
         NametagGlobals.setWant2dNametags(False)
-        loader.beginBulkLoad('localAvatarPlayGame', OTPLocalizer.CREnteringToontown, 400, 1, TTLocalizer.TIP_GENERAL, 0)
+        loader.beginBulkLoad('localAvatarPlayGame', Entertextchoice, 400, 1, TTLocalizer.TIP_GENERAL, 0)
         localAvatar = LocalToon.LocalToon(self)
         localAvatar.dclass = dclass
         base.localAvatar = localAvatar
