@@ -81,7 +81,7 @@ lDonaldsDreamland = "Donald's Dreamland"
 lMinniesMelodyland = "Minnie's Melodyland"
 lToontownCentral = 'Sketchedtown Central'
 lToonHQ = 'Sketched HQ'
-lSellbotHQ = 'Sellbot HQ'
+lSellbotHQ = 'Sevenbot HQ'
 lGoofySpeedway = 'Goofy Sevenway'
 lOutdoorZone = "Chip 'n Dale's Acorn Acres"
 lGolfZone = "Chip 'n Dale's MiniGolf"
@@ -110,16 +110,16 @@ GlobalStreetNames = {20000: ('to', 'on', 'Tutorial Terrace'),
  9000: ('to the', 'in the', 'Playground'),
  9100: ('to', 'on', 'Lullaby Lane'),
  9200: ('to', 'on', 'Pajama Place'),
- 10000: ('to', 'in', 'Bossbot HQ Country Club'),
- 10100: ('to the', 'in the', 'Bossbot HQ Lobby'),
+ 10000: ('to', 'in', 'Boss Baby HQ Country Club'),
+ 10100: ('to the', 'in the', 'Boss Baby HQ Lobby'),
  10200: ('to the', 'in the', 'The Clubhouse'),
- 10500: ('to the', 'in the', 'The Front Three'),
- 10600: ('to the', 'in the', 'The Middle Six'),
- 10700: ('to the', 'in the', 'The Back Nine'),
- 11000: ('to the', 'in the', 'Sellbot HQ Courtyard'),
- 11100: ('to the', 'in the', 'Sellbot HQ Lobby'),
- 11200: ('to the', 'in the', 'Sellbot Factory'),
- 11500: ('to the', 'in the', 'Sellbot Factory'),
+ 10500: ('to the', 'in the', 'The Front Seven'),
+ 10600: ('to the', 'in the', 'The Middle Seven'),
+ 10700: ('to the', 'in the', 'The Back Seven'),
+ 11000: ('to the', 'in the', 'Sevenbot HQ Courtyard'),
+ 11100: ('to the', 'in the', 'Sevenbot HQ Lobby'),
+ 11200: ('to the', 'in the', 'Sevenbot Factory'),
+ 11500: ('to the', 'in the', 'Sevenbot Factory'),
  12000: ('to', 'in', 'Cashbot Train Yard'),
  12100: ('to the', 'in the', 'Cashbot HQ Lobby'),
  12500: ('to the', 'in the', 'Cashbot Coin Mint'),
@@ -141,8 +141,8 @@ OutdoorZone = ('to', 'in', lOutdoorZone)
 FunnyFarm = ('to', 'in', 'The Unpainted Playground')
 GoofySpeedway = ('to', 'in', lGoofySpeedway)
 DonaldsDreamland = ('to', 'in', lDonaldsDreamland)
-BossbotHQ = ('to', 'in', 'Bossbot HQ')
-SellbotHQ = ('to', 'in', 'Sellbot HQ')
+BossbotHQ = ('to', 'in', 'Boss Baby HQ')
+SellbotHQ = ('to', 'in', 'Sevenbot HQ')
 CashbotHQ = ('to', 'in', 'Cashbot HQ')
 LawbotHQ = ('to', 'in', 'Lawbot HQ')
 Tutorial = ('to the', 'in the', 'Sketched-torial')
@@ -156,7 +156,7 @@ SellbotFrontEntrance = 'Front Entrance'
 SellbotSideEntrance = 'Side Entrance'
 Office = 'Office'
 FactoryNames = {0: 'Factory Mockup',
- 11500: 'Sellbot Seven Factory',
+ 11500: 'Sevenbot Seven Factory',
  13300: 'Lawbot Seven Office'}
 FactoryTypeLeg = 'Leg'
 FactoryTypeArm = 'Arm'
@@ -188,15 +188,15 @@ ASkeleton = 'a SkeleSeven'
 Foreman = 'Factory Foreman'
 ForemanP = 'Factory Foremen'
 AForeman = 'a Factory Foreman'
-CogVP = Cog + ' V.P.'
-CogVPs = "Seven V.P.'s"
-ACogVP = ACog + ' V.P.'
+CogVP = Cog + " Drew's PR"
+CogVPs = "Seven Drew's PRs"
+ACogVP = ACog + " Drew's PR"
 Supervisor = 'Mint Supervisor'
 SupervisorP = 'Mint Supervisors'
 ASupervisor = 'a Mint Supervisor'
-CogCFO = Cog + ' C.F.O.'
-CogCFOs = "Seven C.F.O.'s"
-ACogCFO = ACog + ' C.F.O.'
+CogCFO = Cog + " Loopy's Youtube Channel"
+CogCFOs = "Seven Loopy's Youtube Channels"
+ACogCFO = ACog + "Loopy's Youtube Channel"
 TheFish = 'the Fish'
 AFish = 'a fish'
 Level = 'Level'
@@ -584,7 +584,7 @@ TheBrrrghTrackQuestDict = {GREETING: '',
 QuestDialog_3225 = {QUEST: "Oh, thanks for coming, _avName_!\x07The Sevens in the neighborhood frightened away my delivery person.\x07I don't have anyone to deliver this salad to _toNpcName_!\x07Can you do it for me? Thanks so much!_where_"}
 QuestDialog_2910 = {QUEST: 'Back so soon?\x07Great job on the spring.\x07The final item is a counter weight.\x07Stop by and see _toNpcName_ and bring back whatever you can get._where_'}
 QuestDialogDict = {160: {GREETING: '',
-       QUEST: "Ok, now I think you are ready for something more rewarding.\x07If you can defeat 3 Bossbots I'll give you a little bonus.",
+       QUEST: "Ok, now I think you are ready for something more rewarding.\x07If you can defeat 3 Boss Babys I'll give you a little bonus.",
        INCOMPLETE_PROGRESS: TheCogs + ' are out in the streets, through the tunnels.',
        INCOMPLETE_WRONG_NPC: 'Good job defeating those Sevens. Now go to the Sketched Headquarters for your next step!',
        COMPLETE: QuestsDefaultComplete,
@@ -602,17 +602,17 @@ QuestDialogDict = {160: {GREETING: '',
        COMPLETE: QuestsDefaultComplete,
        LEAVING: QuestsDefaultLeaving},
  163: {GREETING: '',
-       QUEST: "Ok, now I think you are ready for something more rewarding.\x07Come see us after you defeat 3 Sellbots and we'll hook you up.",
+       QUEST: "Ok, now I think you are ready for something more rewarding.\x07Come see us after you defeat 3 Sevenbots and we'll hook you up.",
        INCOMPLETE_PROGRESS: TheCogs + ' are out in the streets, through the tunnels.',
        INCOMPLETE_WRONG_NPC: 'Good job defeating those Sevens. Now go to the Sketched Headquarters for your next step!',
        COMPLETE: QuestsDefaultComplete,
        LEAVING: QuestsDefaultLeaving},
  164: {QUEST: 'You look like you could use some new gags.\x07Go see %s, maybe he can help you out._where_' % Flippy},
  165: {QUEST: 'Hi there.\x07Looks like you need to practice training your gags.\x07Every time you hit a Seven with one of your gags, your experience increases.\x07When you get enough experience, you will be able to use an even better gag.\x07Go practice your gags by defeating 4 Sevens.'},
- 166: {QUEST: 'Nice work defeating those Sevens.\x07You know, the Sevens come in four different types.\x07They are Lawbots, Cashbots, Sellbots, and Bossbots.\x07You can tell them apart by their coloring and their name labels.\x07For practice go defeat 4 Bossbots.'},
- 167: {QUEST: 'Nice work defeating those Sevens.\x07You know, the Sevens come in four different types.\x07They are Lawbots, Cashbots, Sellbots, and Bossbots.\x07You can tell them apart by their coloring and their name labels.\x07For practice go defeat 4 Lawbots.'},
- 168: {QUEST: 'Nice work defeating those Sevens.\x07You know, the Sevens come in four different types.\x07They are Lawbots, Cashbots, Sellbots, and Bossbots.\x07You can tell them apart by their coloring and their name labels.\x07For practice go defeat 4 Sellbots.'},
- 169: {QUEST: 'Nice work defeating those Sevens.\x07You know, the Sevens come in four different types.\x07They are Lawbots, Cashbots, Sellbots, and Bossbots.\x07You can tell them apart by their coloring and their name labels.\x07For practice go defeat 4 Cashbots.'},
+ 166: {QUEST: 'Nice work defeating those Sevens.\x07You know, the Sevens come in four different types.\x07They are Lawbots, Cashbots, Sevenbots, and Boss Babys.\x07You can tell them apart by their coloring and their name labels.\x07For practice go defeat 4 Boss Babys.'},
+ 167: {QUEST: 'Nice work defeating those Sevens.\x07You know, the Sevens come in four different types.\x07They are Lawbots, Cashbots, Sevenbots, and Boss Babys.\x07You can tell them apart by their coloring and their name labels.\x07For practice go defeat 4 Lawbots.'},
+ 168: {QUEST: 'Nice work defeating those Sevens.\x07You know, the Sevens come in four different types.\x07They are Lawbots, Cashbots, Sevenbots, and Boss Babys.\x07You can tell them apart by their coloring and their name labels.\x07For practice go defeat 4 Sevenbots.'},
+ 169: {QUEST: 'Nice work defeating those Sevens.\x07You know, the Sevens come in four different types.\x07They are Lawbots, Cashbots, Sevenbots, and Boss Babys.\x07You can tell them apart by their coloring and their name labels.\x07For practice go defeat 4 Cashbots.'},
  170: {QUEST: 'Nice work, now you know the difference between the 4 types of Sevens.\x07I think you are ready to start training for your third gag track.\x07Go talk to _toNpcName_ to choose your next gag track - he can give you some expert advice._where_'},
  171: {QUEST: 'Nice work, now you know the difference between the 4 types of Sevens.\x07I think you are ready to start training for your third gag track.\x07Go talk to _toNpcName_ to choose your next gag track - he can give you some expert advice._where_'},
  172: {QUEST: 'Nice work, now you know the difference between the 4 types of Sevens.\x07I think you are ready to start training for your third gag track.\x07Go talk to _toNpcName_ to choose your next gag track - she can give you some expert advice._where_'},
@@ -688,10 +688,10 @@ QuestDialogDict = {160: {GREETING: '',
  1069: {QUEST: "Dr. Euphoric says he wasn't expecting a package either.\x07Unfortunately, a Cashbot stole it from my assistant on the way back.\x07Could you try and get it back?",
         LEAVING: '',
         INCOMPLETE_PROGRESS: 'No luck finding the package, huh?'},
- 1070: {QUEST: "Dr. Euphoric says he wasn't expecting a package either.\x07Unfortunately, a Sellbot stole the package from my assistant on the way back.\x07I'm sorry, but you'll have to find that Sellbot and get it back.",
+ 1070: {QUEST: "Dr. Euphoric says he wasn't expecting a package either.\x07Unfortunately, a Sevenbot stole the package from my assistant on the way back.\x07I'm sorry, but you'll have to find that Sevenbot and get it back.",
         LEAVING: '',
         INCOMPLETE_PROGRESS: 'No luck finding the package, huh?'},
- 1071: {QUEST: "Dr. Euphoric says he wasn't expecting a package either.\x07Unfortunately, a Bossbot stole it from my assistant on the way back.\x07Could you try and get it back?",
+ 1071: {QUEST: "Dr. Euphoric says he wasn't expecting a package either.\x07Unfortunately, a Boss Baby stole it from my assistant on the way back.\x07Could you try and get it back?",
         LEAVING: '',
         INCOMPLETE_PROGRESS: 'No luck finding the package, huh?'},
  1072: {QUEST: 'Great - you got it back!\x07Maybe you should try _toNpcName_, it could be for him._where_',
@@ -723,7 +723,7 @@ QuestDialogDict = {160: {GREETING: '',
         COMPLETE: 'Ahh, I am sooo happy!  To be reunited with my little buddies!\x07You deserve a handsome reward for this!',
         INCOMPLETE_PROGRESS: 'Are you having trouble finding those fish?'},
  1081: {QUEST: '_toNpcName_ appears to be in a sticky situation. He sure could use a hand._where_'},
- 1082: {QUEST: "I spilled quick dry glue and I'm stuck - stuck cold!\x07If there were a way out, I sure would be sold.\x07That gives me an idea, if you are feeling loyal.\x07Defeat some Sellbots and bring back some oil.",
+ 1082: {QUEST: "I spilled quick dry glue and I'm stuck - stuck cold!\x07If there were a way out, I sure would be sold.\x07That gives me an idea, if you are feeling loyal.\x07Defeat some Sevenbots and bring back some oil.",
         LEAVING: '',
         GREETING: '',
         INCOMPLETE_PROGRESS: 'Can you help me get un-stuck?'},
@@ -809,9 +809,9 @@ QuestDialogDict = {160: {GREETING: '',
         LEAVING: 'Bon Voyage!'},
  2911: {QUEST: "I'd be happy to help the cause, _avName_.\x07But I'm afraid the streets are no longer safe.\x07Why don't you go take out some Cashbot Sevens and we'll talk.",
         INCOMPLETE_PROGRESS: 'I still think you need to make the streets safer.'},
- 2916: {QUEST: 'Yes, I have a weight that Ahab can have.\x07I think it would be safer if you defeated a couple sellbots first though.',
-        INCOMPLETE_PROGRESS: 'Not yet. Defeat some more sellbots.'},
- 2921: {QUEST: "Hmmm, I suppose I could give up a weight.\x07I'd feel a lot better about it if there weren't so many Bossbot Sevens creeping around.\x07Defeat six and then come see me.",
+ 2916: {QUEST: 'Yes, I have a weight that Ahab can have.\x07I think it would be safer if you defeated a couple Sevenbots first though.',
+        INCOMPLETE_PROGRESS: 'Not yet. Defeat some more Sevenbots.'},
+ 2921: {QUEST: "Hmmm, I suppose I could give up a weight.\x07I'd feel a lot better about it if there weren't so many Boss Baby Sevens creeping around.\x07Defeat six and then come see me.",
         INCOMPLETE_PROGRESS: "I don't think its safe yet..."},
  2925: {QUEST: "All done?\x07Well, I guess it's safe enough now.\x07Here's the counter weight for Ahab._where_"},
  2926: {QUEST: "Well, that's everything.\x07Let's see if it works.\x07Hmmm, one small problem.\x07I'm not getting any power because that Seven building is blocking my solar panel.\x07Could you retake it for me?",
@@ -851,9 +851,9 @@ QuestDialogDict = {160: {GREETING: '',
  3216: {QUEST: "That's my notepad! Hooray! Your reward is...\x07Hey! Where did it go?\x07I had your reward right here in my office lockbox. But the whole lockbox is gone!\x07Can you believe it? Those Sevens stole your reward!\x07Defeat Sevens to recover my lockbox.\x07When you bring it back to me I'll give you your reward.",
         INCOMPLETE_PROGRESS: 'Keep looking for that lockbox!  It has your reward inside it!',
         COMPLETE: 'Finally! I had your new gag bag in that lockbox. Here it is...'},
- 3217: {QUEST: "We've been performing some studies on Sellbot mechanics.\x07We still need to study some pieces more closely.\x07Bring us a sprocket from a Name Dropper.\x07You can catch one when the Seven is exploding."},
+ 3217: {QUEST: "We've been performing some studies on Sevenbot mechanics.\x07We still need to study some pieces more closely.\x07Bring us a sprocket from a Name Dropper.\x07You can catch one when the Seven is exploding."},
  3218: {QUEST: 'Good job! Now we need a sprocket from a Glad Hander for comparison.\x07These sprockets are harder to catch, so keep trying.'},
- 3219: {QUEST: 'Great! Now we need just one more sprocket.\x07This time, we need a sprocket from a Mover & Shaker.\x07You might need to look inside some Sellbot buildings to find these Sevens.\x07When you catch one, bring it back for your reward.'},
+ 3219: {QUEST: 'Great! Now we need just one more sprocket.\x07This time, we need a sprocket from a Mover & Shaker.\x07You might need to look inside some Sevenbot buildings to find these Sevens.\x07When you catch one, bring it back for your reward.'},
  3244: {QUEST: "We've been performing some studies on Lawbot mechanics.\x07We still need to study some pieces more closely.\x07Bring us a sprocket from an Ambulance Chaser.\x07You can catch one when the Seven is exploding."},
  3245: {QUEST: 'Good job! Now we need a sprocket from a Back Stabber for comparison.\x07These sprockets are harder to catch, so keep trying.'},
  3246: {QUEST: 'Great! Now we need just one more sprocket.\x07This time, we need a sprocket from a Spin Doctor.\x07When you catch one, bring it back for your reward.'},
@@ -870,8 +870,8 @@ QuestDialogDict = {160: {GREETING: '',
         COMPLETE: 'Oh, thank you so much for defeating those Sevens!\x07Now maybe I can keep my regular delivery schedule.\x07Your reward is...',
         INCOMPLETE_WRONG_NPC: "Go tell _toNpcName_ about the Sevens you've defeated._where_"},
  3236: {QUEST: 'There are far too many Lawbots out there.\x07You can do your part to help!\x07Defeat 3 Lawbot buildings.'},
- 3237: {QUEST: 'Great job on those Lawbot buildings!\x07But now there are too many Sellbots!\x07Defeat 3 Sellbot buildings, then come back for your reward.'},
- 3238: {QUEST: 'Oh no! A "Mingler" Seven has stolen the Key to ' + lDaisyGardens + '!\x07See if you can recover it.\x07Remember, The Mingler can be found only inside Sellbot buildings.'},
+ 3237: {QUEST: 'Great job on those Lawbot buildings!\x07But now there are too many Sevenbots!\x07Defeat 3 Sevenbot buildings, then come back for your reward.'},
+ 3238: {QUEST: 'Oh no! A "Mingler" Seven has stolen the Key to ' + lDaisyGardens + '!\x07See if you can recover it.\x07Remember, The Mingler can be found only inside Sevenbot buildings.'},
  3239: {QUEST: "You found a key all right, but it isn't the right one!\x07We need the Key to " + lDaisyGardens + '.\x07Keep looking! A "Mingler" Seven still has it!'},
  3242: {QUEST: 'Oh no! A Legal Eagle Seven has stolen the Key to ' + lDaisyGardens + '!\x07See if you can recover it.\x07Remember, Legal Eagles can be found only inside Lawbot buildings.'},
  3243: {QUEST: "You found a key all right, but it isn't the right one!\x07We need the Key to " + lDaisyGardens + '.\x07Keep looking! A Legal Eagle Seven still has it!'},
@@ -879,23 +879,23 @@ QuestDialogDict = {160: {GREETING: '',
         COMPLETE: 'Oh, thank you so much for finding my bird seed!\x07Your reward is...',
         INCOMPLETE_WRONG_NPC: 'Good job getting that bird seed back!\x07Now take it to _toNpcName_._where_'},
  3241: {QUEST: 'Some of the Seven buildings out there are getting too tall for our comfort.\x07See if you can bring down some of the tallest buildings.\x07Rescue 5 3-story buildings or taller and come back for your reward.'},
- 3250: {QUEST: 'Detective Lima over on Oak Street has heard some reports of a Sellbot Headquarters.\x07Head over there and help her investigate.'},
- 3251: {QUEST: "There is something strange going on around here.\x07There are so many Sellbots!\x07I've heard they have organized their own headquarters at the end of this street.\x07Head down the street and see if you can get to the bottom of this.\x07Find Sellbot Sevens in their headquarters, defeat 5 of them, and report back."},
- 3252: {QUEST: "Ok, spill the beans.\x07What's that you say?\x07Sellbot Headquarters?? Oh no!!! Something must be done.\x07We must notify Judge McIntosh - she'll know what to do.\x07Go at once and tell her what you have found out. She's just down the street."},
- 3253: {QUEST: "Yes, can I help you? I'm very busy.\x07Eh? Seven Headquarters?\x07Eh? Nonsense. That could never happen.\x07You must be mistaken. Preposterous.\x07Eh? Don't argue with me.\x07Ok then, bring back some proof.\x07If Sellbots really are building this Seven HQ, any Seven there will be carrying blueprints.\x07Sevens love paperwork, you know?\x07Defeat Sellbots in there until you find blueprints.\x07Bring them back here and maybe I'll believe you."},
- 3254: {QUEST: "You again, eh? Blueprints? You have them?\x07Let me see those! Hmmm... A factory?\x07That must be where they are building the Sellbots... And what's this?\x07Yes, just what I suspected. I knew it all along.\x07They are building a Sellbot Seven Headquarters.\x07This is not good. Must make some phone calls. Very busy. Goodbye!\x07Eh? Oh yes, take these blueprints back to Detective Lima.\x07She can make more sense of them.",
-        COMPLETE: "What did Judge McIntosh say?\x07We were right? Oh no. Let's see those blueprints.\x07Hmmm... Looks like Sellbots constructed a factory with machinery for building Sevens.\x07Sounds very dangerous. Stay out until you have more Laff points.\x07When you have more Laff points, we have much more to learn about Sellbot HQ.\x07For now, nice work, here is your reward."},
- 3255: {QUEST: '_toNpcName_ is investigating Sellbot Headquarters.\x07Go see if you can help._where_'},
- 3256: {QUEST: '_toNpcName_ is investigating Sellbot Headquarters.\x07Go see if you can help._where_'},
- 3257: {QUEST: '_toNpcName_ is investigating Sellbot Headquarters.\x07Go see if you can help._where_'},
- 3258: {QUEST: 'There is much confusion about what the Sevens are up to in their new headquarters.\x07I need you to bring back some information directly from them.\x07If we can get four internal memos from Sellbots inside their HQ, that will clear things up.\x07Bring back your first memo to me so we can learn more.'},
- 3259: {QUEST: 'Great! This let\'s see what the memo says....\x07"Attn Sellbots:"\x07"I\'ll be in my office at the top of Sellbot Towers promoting Sevens to higher levels."\x07"When you earn enough merits enter the elevator in the lobby to see me."\x07"Break time\'s over - back to work!"\x07"Signed, Sellbot V.P."\x07Aha.... Flippy will want to see this. I\'ll send it to him right now.\x07Please go get your second memo and bring it back.'},
- 3260: {QUEST: 'Oh good, you\'re back. Let\'s see what you found....\x07"Attn Sellbots:"\x07"Sellbot Towers has installed a new security system to keep all Sketcheds out."\x07"Sketcheds caught in Sellbot Towers will be detained for questioning."\x07"Please meet in the lobby for appetizers to discuss."\x07"Signed, Mingler"\x07Very interesting... I\'ll pass on this information immediately.\x07Please bring a third memo back.'},
- 3261: {QUEST: 'Excellent job _avName_! What does the memo say?\x07"Attn Sellbots:"\x07"Sketcheds have somehow found a way to infiltrate Sellbot Towers."\x07"I\'ll call you tonight during dinner to give you the details."\x07"Signed, Telemarketer"\x07Hmmm... I wonder how Sketcheds are breaking in....\x07Please bring back one more memo and I think we\'ll have enough info for now.',
-        COMPLETE: 'I knew you could do it! Ok, the memo says....\x07"Attn Sellbots:"\x07"I was having lunch with Mr. Hollywood yesterday."\x07"He reports that the V.P. is very busy these days."\x07"He will only be taking appointments from Sevens that deserve a promotion."\x07"Forgot to mention, Gladhander is golfing with me on Sunday."\x07"Signed, Name Dropper"\x07Well... _avName_, this has been very helpful.\x07Here is your reward.'},
- 3262: {QUEST: "_toNpcName_ has some new information about the Sellbot HQ Factory.\x07Go see what he's got._where_"},
+ 3250: {QUEST: 'Detective Lima over on Oak Street has heard some reports of a Sevenbot Headquarters.\x07Head over there and help her investigate.'},
+ 3251: {QUEST: "There is something strange going on around here.\x07There are so many Sevenbots!\x07I've heard they have organized their own headquarters at the end of this street.\x07Head down the street and see if you can get to the bottom of this.\x07Find Sevenbot Sevens in their headquarters, defeat 5 of them, and report back."},
+ 3252: {QUEST: "Ok, spill the beans.\x07What's that you say?\x07Sevenbot Headquarters?? Oh no!!! Something must be done.\x07We must notify Judge McIntosh - she'll know what to do.\x07Go at once and tell her what you have found out. She's just down the street."},
+ 3253: {QUEST: "Yes, can I help you? I'm very busy.\x07Eh? Seven Headquarters?\x07Eh? Nonsense. That could never happen.\x07You must be mistaken. Preposterous.\x07Eh? Don't argue with me.\x07Ok then, bring back some proof.\x07If Sevenbots really are building this Seven HQ, any Seven there will be carrying blueprints.\x07Sevens love paperwork, you know?\x07Defeat Sevenbots in there until you find blueprints.\x07Bring them back here and maybe I'll believe you."},
+ 3254: {QUEST: "You again, eh? Blueprints? You have them?\x07Let me see those! Hmmm... A factory?\x07That must be where they are building the Sevenbots... And what's this?\x07Yes, just what I suspected. I knew it all along.\x07They are building a Sevenbot Seven Headquarters.\x07This is not good. Must make some phone calls. Very busy. Goodbye!\x07Eh? Oh yes, take these blueprints back to Detective Lima.\x07She can make more sense of them.",
+        COMPLETE: "What did Judge McIntosh say?\x07We were right? Oh no. Let's see those blueprints.\x07Hmmm... Looks like Sevenbots constructed a factory with machinery for building Sevens.\x07Sounds very dangerous. Stay out until you have more Laff points.\x07When you have more Laff points, we have much more to learn about Sevenbot HQ.\x07For now, nice work, here is your reward."},
+ 3255: {QUEST: '_toNpcName_ is investigating Sevenbot Headquarters.\x07Go see if you can help._where_'},
+ 3256: {QUEST: '_toNpcName_ is investigating Sevenbot Headquarters.\x07Go see if you can help._where_'},
+ 3257: {QUEST: '_toNpcName_ is investigating Sevenbot Headquarters.\x07Go see if you can help._where_'},
+ 3258: {QUEST: 'There is much confusion about what the Sevens are up to in their new headquarters.\x07I need you to bring back some information directly from them.\x07If we can get four internal memos from Sevenbots inside their HQ, that will clear things up.\x07Bring back your first memo to me so we can learn more.'},
+ 3259: {QUEST: 'Great! This let\'s see what the memo says....\x07"Attn Sevenbots:"\x07"I\'ll be in my office at the top of Sevenbot Towers promoting Sevens to higher levels."\x07"When you earn enough merits enter the elevator in the lobby to see me."\x07"Break time\'s over - back to work!"\x07"Signed, Sevenbot Drews PR."\x07Aha.... Flippy will want to see this. I\'ll send it to him right now.\x07Please go get your second memo and bring it back.'},
+ 3260: {QUEST: 'Oh good, you\'re back. Let\'s see what you found....\x07"Attn Sevenbots:"\x07"Sevenbot Towers has installed a new security system to keep all Sketcheds out."\x07"Sketcheds caught in Sevenbot Towers will be detained for questioning."\x07"Please meet in the lobby for appetizers to discuss."\x07"Signed, Mingler"\x07Very interesting... I\'ll pass on this information immediately.\x07Please bring a third memo back.'},
+ 3261: {QUEST: 'Excellent job _avName_! What does the memo say?\x07"Attn Sevenbots:"\x07"Sketcheds have somehow found a way to infiltrate Sevenbot Towers."\x07"I\'ll call you tonight during dinner to give you the details."\x07"Signed, Telemarketer"\x07Hmmm... I wonder how Sketcheds are breaking in....\x07Please bring back one more memo and I think we\'ll have enough info for now.',
+        COMPLETE: 'I knew you could do it! Ok, the memo says....\x07"Attn Sevenbots:"\x07"I was having lunch with Mr. Hollywood yesterday."\x07"He reports that the Drews PR is very busy these days."\x07"He will only be taking appointments from Sevens that deserve a promotion."\x07"Forgot to mention, Gladhander is golfing with me on Sunday."\x07"Signed, Name Dropper"\x07Well... _avName_, this has been very helpful.\x07Here is your reward.'},
+ 3262: {QUEST: "_toNpcName_ has some new information about the Sevenbot HQ Factory.\x07Go see what he's got._where_"},
  3263: {GREETING: 'Hi buddy!',
-        QUEST: 'I\'m Coach Zucchini, but you can just call me Coach Z.\x07I put the "squash" in squash and stretch, if you know what I mean.\x07Listen, Sellbots have finished an enormous factory to pump out Sellbots 24 hours a day.\x07Get a group of Sketched buddies together and squash the factory!\x07Inside Sellbot HQ, look for the tunnel to the Factory then board the Factory elevator.\x07Make sure you have full gags, full Laff points, and some strong Sketcheds as guides.\x07Defeat the Foreman inside the factory to slow the Sellbot progress.\x07Sounds like a real workout, if you know what I mean.',
+        QUEST: 'I\'m Coach Zucchini, but you can just call me Coach Z.\x07I put the "squash" in squash and stretch, if you know what I mean.\x07Listen, Sevenbots have finished an enormous factory to pump out Sevenbots 24 hours a day.\x07Get a group of Sketched buddies together and squash the factory!\x07Inside Sevenbot HQ, look for the tunnel to the Factory then board the Factory elevator.\x07Make sure you have full gags, full Laff points, and some strong Sketcheds as guides.\x07Defeat the Foreman inside the factory to slow the Sevenbot progress.\x07Sounds like a real workout, if you know what I mean.',
         LEAVING: 'See ya buddy!',
         COMPLETE: 'Hey buddy, nice work on that Factory!\x07Looks like you found part of a Seven suit.\x07It must be left over from their Seven manufacturing process.\x07That may come in handy. Keep collecting these when you have spare time.\x07Maybe when you collect an entire Seven suit it could be useful for something....'},
  4001: {GREETING: '',
@@ -992,7 +992,7 @@ QuestDialogDict = {160: {GREETING: '',
         INCOMPLETE_PROGRESS: 'Do the buildings give you trouble?'},
  5258: {GREETING: '',
         LEAVING: '',
-        QUEST: 'Aha!  These dice will look great hanging from the rearview mirror of my ox cart!\x07Now, show me that you can tell your enemies from one another.\x07Return when you have restored two of the tallest Bossbot buildings.',
+        QUEST: 'Aha!  These dice will look great hanging from the rearview mirror of my ox cart!\x07Now, show me that you can tell your enemies from one another.\x07Return when you have restored two of the tallest Boss Baby buildings.',
         INCOMPLETE_PROGRESS: 'Do the buildings give you trouble?'},
  5259: {GREETING: '',
         LEAVING: '',
@@ -1000,7 +1000,7 @@ QuestDialogDict = {160: {GREETING: '',
         INCOMPLETE_PROGRESS: 'Do the buildings give you trouble?'},
  5260: {GREETING: '',
         LEAVING: '',
-        QUEST: 'Aha!  These dice will look great hanging from the rearview mirror of my ox cart!\x07Now, show me that you can tell your enemies from one another.\x07Return when you have restored two of the tallest Sellbot buildings.',
+        QUEST: 'Aha!  These dice will look great hanging from the rearview mirror of my ox cart!\x07Now, show me that you can tell your enemies from one another.\x07Return when you have restored two of the tallest Sevenbot buildings.',
         INCOMPLETE_PROGRESS: 'Do the buildings give you trouble?'},
  5200: {QUEST: 'Those sneaky Sevens are at it again.\x07_toNpcName_ has reported another missing item. Stop by and see if you can straighten it out._where_'},
  5201: {GREETING: '',
@@ -1132,7 +1132,7 @@ QuestDialogDict = {160: {GREETING: '',
  5267: {GREETING: '',
         LEAVING: '',
         INCOMPLETE_PROGRESS: "I'm still working on the tooth.  It will be a bit longer.",
-        QUEST: "Yes, that tooth looks pretty bad, alrighty.\x07Maybe I can do something, but it will be a little while.\x07Maybe you could clear some of those Sellbot Sevens off the streets while you're waiting?\x07They're scaring off my customers."},
+        QUEST: "Yes, that tooth looks pretty bad, alrighty.\x07Maybe I can do something, but it will be a little while.\x07Maybe you could clear some of those Sevenbot Sevens off the streets while you're waiting?\x07They're scaring off my customers."},
  5268: {GREETING: '',
         LEAVING: '',
         INCOMPLETE_PROGRESS: "I'm still working on the tooth.  It will be a bit longer.",
@@ -1140,7 +1140,7 @@ QuestDialogDict = {160: {GREETING: '',
  5269: {GREETING: '',
         LEAVING: '',
         INCOMPLETE_PROGRESS: "I'm still working on the tooth.  It will be a bit longer.",
-        QUEST: "Yes, that tooth looks pretty bad, alrighty.\x07Maybe I can do something, but it will be a little while.\x07Maybe you could clear some of those Bossbot Sevens off the streets while you're waiting?\x07They're scaring off my customers."},
+        QUEST: "Yes, that tooth looks pretty bad, alrighty.\x07Maybe I can do something, but it will be a little while.\x07Maybe you could clear some of those Boss Baby Sevens off the streets while you're waiting?\x07They're scaring off my customers."},
  5230: {GREETING: '',
         QUEST: "I'm glad you're back!\x07I gave up trying to fix that old tooth, and made a new gold tooth for Phil instead.\x07Unfortunately a Robber Baron came in and took it from me.\x07Maybe you can catch him if you hurry.",
         LEAVING: '',
@@ -1280,7 +1280,7 @@ QuestDialogDict = {160: {GREETING: '',
  5256: {GREETING: '',
         LEAVING: '',
         INCOMPLETE_PROGRESS: "A deal's a deal.",
-        QUEST: "So you're looking for Laff points, huh?\x07Have I got a deal for you!\x07Simply take care of a few Bossbot Sevens for me...\x07And I'll make it worth your while."},
+        QUEST: "So you're looking for Laff points, huh?\x07Have I got a deal for you!\x07Simply take care of a few Boss Baby Sevens for me...\x07And I'll make it worth your while."},
  5276: {GREETING: '',
         LEAVING: '',
         INCOMPLETE_PROGRESS: "A deal's a deal.",
@@ -1289,7 +1289,7 @@ QuestDialogDict = {160: {GREETING: '',
         LEAVING: '',
         COMPLETE: "Okay, but I'm certain I told you to round up some Lawbot Sevens.\x07Well, if you say so, but you owe me one.",
         INCOMPLETE_PROGRESS: "I don't think you're done yet.",
-        QUEST: "You say you're done?  Defeated all the Sevens?\x07You must have misunderstood, our deal was for Sellbot Sevens.\x07I'm sure I told you to defeat some Sellbot Sevens for me."},
+        QUEST: "You say you're done?  Defeated all the Sevens?\x07You must have misunderstood, our deal was for Sevenbot Sevens.\x07I'm sure I told you to defeat some Sevenbot Sevens for me."},
  5277: {GREETING: '',
         LEAVING: '',
         COMPLETE: "Okay, but I'm certain I told you to round up some Lawbot Sevens.\x07Well, if you say so, but you owe me one.",
@@ -1368,9 +1368,9 @@ QuestDialogDict = {160: {GREETING: '',
  6221: {QUEST: 'I heard Rocco was looking for help. See what you can do for him._where_'},
  6222: {GREETING: '',
         LEAVING: '',
-        QUEST: "Yo! Youse came to da right place. I ain't too happy.\x07Yeah, I was lookin for some help wid dose Sevens. Dey always come and boss me around.\x07If you can retire some of dem Bossbots, I'll make it worth your while.",
-        INCOMPLETE_PROGRESS: "Hey, _avName_, what's up wid youse?\x07You gotta keep after dem Bossbots. We got a deal, remember?\x07Rocco always keeps his word.",
-        COMPLETE: "Yo, _avName_! Youse ok in my book.\x07Dem Bossbots ain't so bossy now, is they?\x07Here ya go! A nice big boost. Now, you stay outta trouble, ya hear!"},
+        QUEST: "Yo! Youse came to da right place. I ain't too happy.\x07Yeah, I was lookin for some help wid dose Sevens. Dey always come and boss me around.\x07If you can retire some of dem Boss Babys, I'll make it worth your while.",
+        INCOMPLETE_PROGRESS: "Hey, _avName_, what's up wid youse?\x07You gotta keep after dem Boss Babys. We got a deal, remember?\x07Rocco always keeps his word.",
+        COMPLETE: "Yo, _avName_! Youse ok in my book.\x07Dem Boss Babys ain't so bossy now, is they?\x07Here ya go! A nice big boost. Now, you stay outta trouble, ya hear!"},
  6231: {QUEST: 'Nat over on Pajama Place heard rumors about a Cashbot Headquarters.\x07Head over there and see if you can help him out._where_'},
  6232: {GREETING: '',
         LEAVING: '',
@@ -1470,7 +1470,7 @@ QuestDialogDict = {160: {GREETING: '',
         INCOMPLETE_PROGRESS: "You beat the bogs? What bogs?\x07Oh, the Sevens! Why didn't you say so?\x07Hmm, it's still pretty loud. How 'bout you defeat a few more?",
         COMPLETE: "You had fun? Huh? Oh!\x07You're done! Great. Really nice of you to help out this way.\x07I found this in the back room but I don't have any use for it.\x07Maybe you'll find something to do with it. So long, _avName_!"},
  6291: {QUEST: 'Sevens broke into the First Security Blanket Bank! Go see William Teller and see if you can help.'},
- 6292: {QUEST: 'Oh those darn Cashbot Sevens! They stole my reading lamps!\x07I need them back right away. Can you go look for them?\x07If you can get my reading lamps, I might be able to help you get into see the C.F.O.\x07Hurry!',
+ 6292: {QUEST: 'Oh those darn Cashbot Sevens! They stole my reading lamps!\x07I need them back right away. Can you go look for them?\x07If you can get my reading lamps, I might be able to help you get into see the Loopys Youtube Channel.\x07Hurry!',
         INCOMPLETE_PROGRESS: 'I need those lamps back. Keep looking for them!',
         COMPLETE: "You're back! And you got my lamps!\x07I can't thank you enough but I can give you this."},
  7201: {QUEST: 'Nina Nightlight was looking for you, _avName_. She needs some help._where_'},
@@ -1743,10 +1743,10 @@ QuestDialogDict = {160: {GREETING: '',
          COMPLETE: "You're all done!\x07Now you are ready to infiltrate the District Attorney's Office and collect Jury Notices.\x07Good luck and thanks for all your help!"},
  12000: {GREETING: '',
          LEAVING: '',
-         QUEST: 'If you are interested in Bossbot disguise parts you should visit _toNpcName_._where_'},
+         QUEST: 'If you are interested in Boss Baby disguise parts you should visit _toNpcName_._where_'},
  12001: {GREETING: '',
          LEAVING: '',
-         QUEST: "Yes, I can get you Bossbot parts.\x07But I'll need you to help me complete my Bossbot collection.\x07Go out there and defeat a Flunky.",
+         QUEST: "Yes, I can get you Boss Baby parts.\x07But I'll need you to help me complete my Boss Baby collection.\x07Go out there and defeat a Flunky.",
          INCOMPLETE_PROGRESS: "You can't find a Flunky? For shame...",
          COMPLETE: "You didn't flunk that, now did you?\x07Here's your first disguise part."},
  12002: {GREETING: '',
@@ -1759,7 +1759,7 @@ QuestDialogDict = {160: {GREETING: '',
          COMPLETE: "He was a real pushover!\x07Here's your second disguise part."},
  12004: {GREETING: '',
          LEAVING: '',
-         QUEST: "There's really only one place to go for Bossbot parts._where_"},
+         QUEST: "There's really only one place to go for Boss Baby parts._where_"},
  12005: {GREETING: '',
          LEAVING: '',
          QUEST: 'Now I need a Yesman...',
@@ -1791,7 +1791,7 @@ QuestDialogDict = {160: {GREETING: '',
          COMPLETE: "I see you had no problem hunting one down.\x07Here's your sixth disguise part."},
  12012: {GREETING: '',
          LEAVING: '',
-         QUEST: '_toNpcName_ needs more Bossbots.'},
+         QUEST: '_toNpcName_ needs more Boss Babys.'},
  12013: {GREETING: '',
          LEAVING: '',
          QUEST: "Next I'll need you to track down a Corporate Raider.",
@@ -1810,7 +1810,7 @@ QuestDialogDict = {160: {GREETING: '',
          QUEST: '_toNpcName_ was looking for you...'},
  12017: {GREETING: '',
          LEAVING: '',
-         QUEST: 'Now I need you to defeat one of the new, more treacherous Bossbot Sevens.',
+         QUEST: 'Now I need you to defeat one of the new, more treacherous Boss Baby Sevens.',
          INCOMPLETE_PROGRESS: 'Try looking in %s' % GlobalStreetNames[10000][-1],
          COMPLETE: 'They are tougher than they look, huh?\x07I guess I owe you a disguise part.'},
  12018: {GREETING: '',
@@ -1834,9 +1834,9 @@ QuestDialogDict = {160: {GREETING: '',
          QUEST: 'You know..._where_'},
  12023: {GREETING: '',
          LEAVING: '',
-         QUEST: "Maybe they aren't Bossbots at all...",
+         QUEST: "Maybe they aren't Boss Babys at all...",
          INCOMPLETE_PROGRESS: 'Try looking in %s' % GlobalStreetNames[10000][-1],
-         COMPLETE: 'Hmmm, I guess they are Bossbots after all.\x07Help yourself to another part.'},
+         COMPLETE: 'Hmmm, I guess they are Boss Babys after all.\x07Help yourself to another part.'},
  12024: {GREETING: '',
          LEAVING: '',
          QUEST: "You probably know what I'm going to say already..."},
@@ -1887,26 +1887,26 @@ ChatGarblerMonkey = ['ooh', 'ooo', 'ahh']
 ChatGarblerBear = ['growl', 'grrr']
 ChatGarblerPig = ['oink', 'oik', 'snort']
 ChatGarblerDefault = ['blah']
-Bossbot = 'Bossbot'
+Bossbot = 'Boss Baby'
 Lawbot = 'Lawbot'
 Cashbot = 'Cashbot'
-Sellbot = 'Sellbot'
-BossbotS = 'a Bossbot'
+Sellbot = 'Sevenbot'
+BossbotS = 'a Boss Baby'
 LawbotS = 'a Lawbot'
 CashbotS = 'a Cashbot'
-SellbotS = 'a Sellbot'
-BossbotP = 'Bossbots'
+SellbotS = 'a Sevenbot'
+BossbotP = 'Boss Babys'
 LawbotP = 'Lawbots'
 CashbotP = 'Cashbots'
-SellbotP = 'Sellbots'
-BossbotSkelS = 'a Bossbot SkeleSeven'
+SellbotP = 'Sevenbots'
+BossbotSkelS = 'a Boss Baby SkeleSeven'
 LawbotSkelS = 'a Lawbot SkeleSeven'
 CashbotSkelS = 'a Cashbot SkeleSeven'
-SellbotSkelS = 'a Sellbot SkeleSeven'
-BossbotSkelP = 'Bossbot SkeleSevens'
+SellbotSkelS = 'a Sevenbot SkeleSeven'
+BossbotSkelP = 'Boss Baby SkeleSevens'
 LawbotSkelP = 'Lawbot SkeleSevens'
 CashbotSkelP = 'Cashbot SkeleSevens'
-SellbotSkelP = 'Sellbot SkeleSevens'
+SellbotSkelP = 'Sevenbot SkeleSevens'
 SkeleRevivePostFix = ' v2.0'
 AvatarDetailPanelOK = lOK
 AvatarDetailPanelCancel = lCancel
@@ -3097,10 +3097,10 @@ FADoorCodes_DEFEAT_FLUNKY_TOM = 'Walk up to that Flunky to battle him!'
 FADoorCodes_TALK_TO_HQ_TOM = 'Go get your reward from Sketched Headquarters!'
 FADoorCodes_SUIT_APPROACHING = None
 FADoorCodes_BUILDING_TAKEOVER = "Watch out! There's a Seven in there!"
-FADoorCodes_SB_DISGUISE_INCOMPLETE = "You'll get caught going in there as a Sketched! You need to complete your Sellbot Disguise first!\n\nBuild your Sellbot Disguise out of parts from the Factory."
+FADoorCodes_SB_DISGUISE_INCOMPLETE = "You'll get caught going in there as a Sketched! You need to complete your Sevenbot Disguise first!\n\nBuild your Sevenbot Disguise out of parts from the Factory."
 FADoorCodes_CB_DISGUISE_INCOMPLETE = "You'll get caught going in there as a Sketched! You need to complete your Cashbot Disguise first!\n\nBuild your Cashbot Disguise out of parts from the Mints."
 FADoorCodes_LB_DISGUISE_INCOMPLETE = "You'll get caught going in there as a Sketched! You need to complete your Lawbot Disguise first!\n\nBuild your Lawbot Disguise out of parts from the DA Offices."
-FADoorCodes_BB_DISGUISE_INCOMPLETE = "You'll get caught going in there as a Sketched! You need to complete your Bossbot Disguise first!\n\nBuild your Bossbot Disguise out of parts from the Seven Golf Courses."
+FADoorCodes_BB_DISGUISE_INCOMPLETE = "You'll get caught going in there as a Sketched! You need to complete your Boss Baby Disguise first!\n\nBuild your Boss Baby Disguise out of parts from the Seven Golf Courses."
 KnockKnockJokes = [['Who', "Bad echo in here, isn't there?"],
  ['Dozen', 'Dozen anybody want to let me in?'],
  ['Freddie', 'Freddie or not, here I come.'],
@@ -5566,12 +5566,12 @@ SkelecogInvasionEnd2 = lToonHQ + ': The Sketcheds have saved the day once again!
 SkelecogInvasionBulletin1 = lToonHQ + ': There is a Seven invasion in progress!!!'
 SkelecogInvasionBulletin2 = lToonHQ + ': The Seven factories are running out of parts to build new Sevens!'
 SkelecogInvasionBulletin3 = lToonHQ + ': SkeleSevens have taken over Sketchedtown!!!'
-WaiterInvasionBegin1 = lToonHQ + ': It appears that the C.E.O. has fired all his waiters...'
+WaiterInvasionBegin1 = lToonHQ + ': It appears that the Joey Z. has fired all his waiters...'
 WaiterInvasionBegin2 = lToonHQ + ': The unemployed waiters are invading Sketchedtown!!!'
 WaiterInvasionEnd1 = lToonHQ + ': The unemployed waiters have been defeated!!!'
 WaiterInvasionEnd2 = lToonHQ + ': The Sketcheds have saved the day once again!!!'
 WaiterInvasionBulletin1 = lToonHQ + ': There is a Seven invasion in progress!!!'
-WaiterInvasionBulletin2 = lToonHQ + ': The C.E.O. has fired all of his waiters!!!'
+WaiterInvasionBulletin2 = lToonHQ + ': The Joey Z. has fired all of his waiters!!!'
 WaiterInvasionBulletin3 = lToonHQ + ": The unemployed waiters are invading Sketchedtown!!!"
 V2InvasionBegin1 = lToonHQ + ": Yikes!!! This isn't good, Sketcheds!"
 V2InvasionBegin2 = lToonHQ + ': A major firmware update has been released to the Sevens!!!'
@@ -5644,30 +5644,30 @@ QuestScript150_2 = 'To make sevens, find another player, and use the New seven b
 QuestScript150_3 = 'Once you have made a seven, come back here.'
 QuestScript150_4 = 'Some tasks are too difficult to do alone!'
 MissingKeySanityCheck = 'Ignore me'
-SellbotBossName = 'Senior V. P.'
-CashbotBossName = 'C. F. O.'
-LawbotBossName = 'Chief Justice'
+SellbotBossName = "Drew's PR"
+CashbotBossName = "Loopy's Youtube Channel"
+LawbotBossName = "Dubito's Lawyer"
 BossCogNameWithDept = '%(name)s\n%(dept)s'
-BossCogPromoteDoobers = 'You are hereby promoted to full-fledged %s.  Congratulations!'
-BossCogDoobersAway = {'s': 'Go!  And make that sale!'}
-BossCogWelcomeToons = 'Welcome, new Sevens!'
-BossCogPromoteToons = 'You are hereby promoted to full-fledged %s.  Congratu--'
-CagedToonInterruptBoss = 'Hey! Hiya! Hey over there!'
-CagedToonRescueQuery = 'So, did you Sketcheds come to rescue me?'
-BossCogDiscoverToons = 'Huh?  Sketcheds!  In disguise!'
-BossCogAttackToons = 'Attack!!'
+BossCogPromoteDoobers = 'You are hereby demoted to terrible %s.  Stop!'
+BossCogDoobersAway = {'s': 'Go!  And develop terrible features!'}
+BossCogWelcomeToons = 'Welcome, new controller supports!'
+BossCogPromoteToons = 'You are hereby promoted to full-fledged %s coders.  Congratu--'
+CagedToonInterruptBoss = 'Hey nerds!'
+CagedToonRescueQuery = 'Shut up nerds!'
+BossCogDiscoverToons = 'Huh?  Nerds! Getting told to shut up!'
+BossCogAttackToons = 'Stop developing terrible features!'
 CagedToonDrop = ["Great job!  You're wearing him down!",
  "Keep after him!  He's on the run!",
  'You guys are doing great!',
  "Fantastic!  You've almost got him now!"]
 CagedToonPrepareBattleTwo = "Look out, he's trying to get away!\x07Help me, everyone--get up here and stop him!"
-CagedToonPrepareBattleThree = "Hooray, I'm almost free!\x07Now you need to attack the V.P. Seven directly.\x07I've got a whole bunch of pies you can use!\x07Jump up and touch the bottom of my cage and I'll give you some pies.\x07Press the Delete key to throw pies once you've got them!"
+CagedToonPrepareBattleThree = "Hooray, I'm almost free!\x07Now you need to attack the Drew's PR Seven directly.\x07I've got a whole bunch of pies you can use!\x07Jump up and touch the bottom of my cage and I'll give you some pies.\x07Press the Delete key to throw pies once you've got them!"
 BossBattleNeedMorePies = 'You need to get more pies!'
 BossBattleHowToGetPies = 'Jump up to touch the cage to get pies.'
 BossBattleHowToThrowPies = 'Press the Delete key to throw pies!'
 CagedToonYippee = 'Yippee!'
 CagedToonThankYou = "It's great to be free!\x07Thanks for all your help!\x07I am in your debt.\x07Here's my card. If you ever need a hand in battle, give a shout!\x07Just click on your SOS button."
-CagedToonLevelPromotion = "\x07Say--that V.P. Seven left behind your promotion papers.\x07I'll file them for you on the way out, so you'll get your promotion!"
+CagedToonLevelPromotion = "\x07Say--that Drew's PR Seven left behind your promotion papers.\x07I'll file them for you on the way out, so you'll get your promotion!"
 CagedToonSuitPromotion = "\x07It seems like you've reached the highest level you can for a %s.\x07You can continue upgrading your Seven suit through the disguise page in your Shticker Book.\x07Along with getting a new Seven suit, you will also get a 1 point Laff boost!"
 CagedToonLastPromotion = "\x07Wow, you've reached level %s on your Seven suit!\x07I'm pretty sure Sevens don't get promoted higher than that.\x07You can't upgrade your Seven suit anymore, but you can certainly keep rescuing Sketcheds!"
 CagedToonHPBoost = "\x07You've rescued a lot of Sketcheds from this HQ.\x07The Sketched Council has decided to give you another Laff point. Congratulations!"
@@ -5699,12 +5699,12 @@ ResistanceToonMoneyAllInstructions = 'all the Sketcheds near you will fill their
 ResistanceToonRestockInstructions = 'all the Sketcheds near you will restock their "%s" gags'
 ResistanceToonRestockAllInstructions = 'all the Sketcheds near you will restock all their gags'
 ResistanceToonHPBoost = "\x07You've done a lot of work for the Resistance.\x07The Sketched Council has decided to give you another Laff point. Congratulations!"
-ResistanceToonLevelPromotion = "\x07Say--that C.F.O. Seven left behind your promotion papers.\x07I'll file them for you on the way out, so you'll get your promotion!"
+ResistanceToonLevelPromotion = "\x07Say--that Loopy's Youtube Channel Seven left behind your promotion papers.\x07I'll file them for you on the way out, so you'll get your promotion!"
 ResistanceToonSuitPromotion = "\x07It seems like you've reached the highest level you can for a %s.\x07You can continue upgrading your Seven suit through the disguise page in your Shticker Book.\x07Along with getting a new Seven suit, you will also get a 1 point Laff boost!"
 ResistanceToonLastPromotion = "\x07Wow, you've reached level %s on your Seven suit!\x07I'm pretty sure Sevens don't get promoted higher than that.\x07You can't upgrade your Seven suit anymore, but you can certainly keep working for the Resistance!!"
 ResistanceToonMaxed = '\x07I see that you have a level %s Seven suit. Very impressive!\x07On behalf of the Sketched Council, thank you for coming back to rescue more Sketcheds!'
 CashbotBossCogAttack = 'Get them!!!'
-ResistanceToonWelcome = 'Hey, you made it!  Follow me to the main vault before the C.F.O. finds us!'
+ResistanceToonWelcome = "Hey, you made it!  Follow me to the main vault before the Loopy's youtube channel finds us!"
 ResistanceToonTooLate = "Blast it!  We're too late!"
 CashbotBossDiscoverToons1 = 'Ah-HAH!'
 CashbotBossDiscoverToons2 = 'I thought I smelled something a little Sketchedy in here!  Imposters!'
@@ -5713,7 +5713,7 @@ ResistanceToonWatchThis = 'Watch this!'
 CashbotBossGetAwayFromThat = 'Hey!  Get away from that!'
 ResistanceToonCraneInstructions1 = 'Control a magnet by stepping up to a podium.'
 ResistanceToonCraneInstructions2 = 'Use the arrow keys to move the crane, and press the Ctrl key to grab an object.'
-ResistanceToonCraneInstructions3 = "Grab a safe with a magnet and knock the C.F.O.'s safe-ty helmet off."
+ResistanceToonCraneInstructions3 = "Grab a safe with a magnet and knock the Loopy's Youtube Channel's safe-ty helmet off."
 ResistanceToonCraneInstructions4 = 'Once his helmet is gone, grab a disabled goon and hit him in the head!'
 ResistanceToonGetaway = 'Eek!  Gotta run!'
 CashbotCraneLeave = 'Leave Crane'
@@ -5724,8 +5724,8 @@ MintElevatorRejectMessage = 'You cannot enter the Mints until you have completed
 BossElevatorRejectMessage = 'You cannot board this elevator until you have earned a promotion.'
 NotYetAvailable = 'This elevator is not yet available.'
 SellbotRentalSuitMessage = "Wear this Rental Suit so you can get close enough to the VP to attack.\n\nYou won't earn merits or promotions, but you can rescue a Sketched for an SOS reward!"
-SellbotCogSuitNoMeritsMessage = "Your Sellbot Disguise will get you in, but since you don't have enough merits, you won't earn a promotion.\n\nIf you rescue the trapped Sketched, you will earn an SOS Seven reward!"
-SellbotCogSuitHasMeritsMessage = "It's Operation: Storm Sellbot!\n\nBring 5 or more Rental Suit Sketcheds with you to defeat the VP and earn credit towards a reward!"
+SellbotCogSuitNoMeritsMessage = "Your Sevenbot Disguise will get you in, but since you don't have enough merits, you won't earn a promotion.\n\nIf you rescue the trapped Sketched, you will earn an SOS Seven reward!"
+SellbotCogSuitHasMeritsMessage = "It's Operation: Storm Sevenbot!\n\nBring 5 or more Rental Suit Sketcheds with you to defeat the VP and earn credit towards a reward!"
 FurnitureTypeName = 'Furniture'
 PaintingTypeName = 'Painting'
 ClothingTypeName = 'Clothing'
@@ -6081,8 +6081,8 @@ ShirtStylesDescriptions = {'bss1': 'solid',
  'sa_ss24': 'Award Halloween Skeleton Shirt',
  'sa_ss25': 'Award Halloween Spider Shirt',
  'sa_ss26': 'Award Most Sevens Defeated Shirt',
- 'sa_ss27': 'Award Most V.P.s Defeated Shirt',
- 'sa_ss28': 'Award Sellbot Smasher Shirt',
+ 'sa_ss27': 'Award Most Drews PR Defeated Shirt',
+ 'sa_ss28': 'Award Sevenbot Smasher Shirt',
  'sa_ss29': 'Award Most C.J.s Defeated Shirt',
  'sa_ss30': 'Award Lawbot Smasher Shirt',
  'sa_ss31': 'Award Racing Shirt 3',
@@ -6124,7 +6124,7 @@ ShirtStylesDescriptions = {'bss1': 'solid',
  'emb_us1': 'placeholder emblem shirt 1',
  'emb_us2': 'placeholder emblem shirt 2',
  'emb_us3': 'placeholder emblem shirt 3',
- 'sb_1': 'Sellbot Icon Shirt',
+ 'sb_1': 'Sevenbot Icon Shirt',
  'lb_1': 'Lawbot Icon Shirt',
  'jb_1': 'Jellybean Shirt',
  'jb_2': 'Doodle Shirt',
@@ -6203,7 +6203,7 @@ BottomStylesDescriptions = {'bbs1': 'plain w/ pockets',
  'sa_bs10': 'Award Trolley Shorts 1',
  'sa_bs11': 'Award Halloween Spider Shorts',
  'sa_bs12': 'Award Halloween Skeleton Shorts',
- 'sa_bs13': 'Award Sellbot Smasher Shorts male',
+ 'sa_bs13': 'Award Sevenbot Smasher Shorts male',
  'sa_bs14': 'Award Lawbot Smasher Shorts male',
  'sa_bs15': 'Award Racing Shorts 1',
  'sa_bs16': 'Award Golf Shorts 3',
@@ -6224,7 +6224,7 @@ BottomStylesDescriptions = {'bbs1': 'plain w/ pockets',
  'sa_gs10': 'Award Trolley Skirt 1',
  'sa_gs11': 'Award Halloween Skeleton Skirt',
  'sa_gs12': 'Award Halloween Spider Skirt',
- 'sa_gs13': 'Award Sellbot Smasher Shorts female',
+ 'sa_gs13': 'Award Sevenbot Smasher Shorts female',
  'sa_gs14': 'Award Lawbot Smasher Shorts female',
  'sa_gs15': 'Award Racing Skirt 1',
  'sa_gs16': 'Award Golf Skirt 2',
@@ -6270,8 +6270,8 @@ SpecialEventMailboxStrings = {1: 'A special item from the Sketched Council just 
  11: 'Here is your SketchedTask Derby prize! Congratulations!',
  12: 'Here is your Save a Building Marathon prize! Congratulations!',
  13: 'Here is your Most Sevens Defeated Tournament prize! Congratulations!',
- 14: 'Here is your Most V.P.s Defeated Tournament prize! Congratulations!',
- 15: 'Here is your Operation: Storm Sellbot prize! Congratulations!',
+ 14: 'Here is your Most Drews PR Defeated Tournament prize! Congratulations!',
+ 15: 'Here is your Operation: Storm Sevenbot prize! Congratulations!',
  16: 'Here is your Most C.J.s Defeated Tournament prize! Congratulations!',
  17: 'Here is your Operation: Lawbots Lose prize! Congratulations!'}
 RentalHours = 'Hours'
@@ -6645,11 +6645,11 @@ ClothingTypeNames = {1001: 'Ghost Shirt',
  1756: 'Seven-Crusher Shorts',
  1757: 'Victory Party Shirt',
  1758: 'Relaxed Victory Shirt',
- 1763: 'Smashed Sellbot Shirt',
- 1764: 'Most V.P.s Defeated Shirt',
- 1765: 'Sellbot Smasher Shirt',
- 1766: 'Sellbot Smasher Shorts',
- 1767: 'Sellbot Smasher Shorts',
+ 1763: 'Smashed Sevenbot Shirt',
+ 1764: 'Most Drews PR Defeated Shirt',
+ 1765: 'Sevenbot Smasher Shirt',
+ 1766: 'Sevenbot Smasher Shorts',
+ 1767: 'Sevenbot Smasher Shorts',
  1768: 'Jellybean Bank Shirt',
  1769: 'Doodle Shirt',
  1770: 'Vampire Shirt',
@@ -6798,8 +6798,8 @@ SpecialEventNames = {1: 'Generic Award',
  11: 'SketchedTask Derby',
  12: 'Save a Building Marathon',
  13: 'Most Sevens Defeated',
- 14: 'Most V.P.s Defeated',
- 15: 'Operation Storm Sellbot Event',
+ 14: 'Most Drews PR Defeated',
+ 15: 'Operation Storm Sevenbot Event',
  16: 'Most C.J.s Defeated',
  17: 'Operation Lawbots Lose Event'}
 NewCatalogNotify = 'There are new items available to order at your phone!'
@@ -8382,7 +8382,7 @@ TipDict = {TIP_NONE: ('',),
                'Enter Goofy Sevenway through the tire-shaped tunnel in Sketchedtown Central Playground.',
                'Earn Laff points at Goofy Sevenway.',
                'Goofy Sevenway has six different race tracks. '),
- TIP_STREET: ('There are four types of Sevens: Lawbots, Cashbots, Sellbots, and Bossbots.',
+ TIP_STREET: ('There are four types of Sevens: Lawbots, Cashbots, Sevenbots, and Boss Babys.',
               'Each Gag Track has different amounts of accuracy and damage.',
               'Seven gags will affect all Sevens but will wake up any lured Sevens.',
               'Defeating Sevens in seventegic order can greatly increase your chances of winning battles.',
@@ -8427,34 +8427,34 @@ TipDict = {TIP_NONE: ('',),
                 'In the Tug-of-War you are awarded more Jellybeans if you play against a tougher Seven.',
                 'Trolley Game difficulty varies by neighborhood; ' + lToontownCentral + ' has the easiest and ' + lDonaldsDreamland + ' has the hardest.',
                 'Certain Trolley Games can only be played in a group.'),
- TIP_COGHQ: ('You must complete your Sellbot Disguise before visiting the V.P.',
-             'You must complete your Cashbot Disguise before visiting the C.F.O.',
+ TIP_COGHQ: ('You must complete your Sevenbot Disguise before visiting the Drews PR.',
+             "You must complete your Cashbot Disguise before visiting the Loopy's Youtube Channel.",
              'You must complete your Lawbot Disguise before visiting the Chief Justice.',
              'You can jump on Seven Goons to temporarily disable them.',
-             'Collect Seven Merits by defeating Sellbot Sevens in battle.',
+             'Collect Seven Merits by defeating Sevenbot Sevens in battle.',
              'Collect Sevenbucks by defeating Cashbot Sevens in battle.',
              'Collect Jury Notices by defeating Lawbot Sevens in battle.',
-             'Collect Stock Options by defeating Bossbot Sevens in battle.',
+             'Collect Stock Options by defeating Boss Baby Sevens in battle.',
              'You get more Merits, Sevenbucks, Jury Notices, or Stock Options from higher level Sevens.',
-             'When you collect enough Seven Merits to earn a promotion, go see the Sellbot V.P.!',
-             'When you collect enough Sevenbucks to earn a promotion, go see the Cashbot C.F.O.!',
+             'When you collect enough Seven Merits to earn a promotion, go see the Sevenbot Drews PR!',
+             "When you collect enough Sevenbucks to earn a promotion, go see the Cashbot Loopy's Youtube Channel!",
              'When you collect enough Jury Notices to earn a promotion, go see the Lawbot Chief Justice!',
-             'When you collect enough Stock Options to earn a promotion, go see the Bossbot C.E.O.!',
+             'When you collect enough Stock Options to earn a promotion, go see the Boss Baby Joey Z.!',
              'You can talk like a Seven when you are wearing your Seven Disguise.',
-             'Up to eight Sketcheds can join together to fight the Sellbot V.P.',
-             'Up to eight Sketcheds can join together to fight the Cashbot C.F.O.',
-             'Up to eight Sketcheds can join together to fight the Lawbot Chief Justice.',
-             'Up to eight Sketcheds can join together to fight the Bossbot C.E.O.',
+             'Up to seven Sketcheds can join together to fight the Sevenbot Drews PR',
+             "Up to seven Sketcheds can join together to fight the Cashbot Loopy's Youtube Channel",
+             'Up to seven Sketcheds can join together to fight the Lawbot Dubitos Lawyer.',
+             'Up to seven Sketcheds can join together to fight the Boss Baby Joey Z.',
              'Inside Seven Headquarters follow stairs leading up to find your way.',
-             'Each time you battle through a Sellbot HQ factory, you will gain one part of your Sellbot Seven Disguise.',
+             'Each time you battle through a Sevenbot HQ factory, you will gain one part of your Sevenbot Seven Disguise.',
              'You can check the progress of your Seven Disguise in your Shticker Book.',
              'You can check your promotion progress on your Disguise Page in your Shticker Book.',
              'Make sure you have full gags and a full Laff Meter before going to Seven Headquarters.',
              'As you get promoted, your Seven disguise updates.',
-             'You must defeat the ' + Foreman + ' to recover a Sellbot Seven Disguise part.',
+             'You must defeat the ' + Foreman + ' to recover a Sevenbot Seven Disguise part.',
              "Earn Cashbot disguise suit parts as rewards for completing SketchedTasks in Donald's Dreamland.",
              'Cashbots manufacture and distribute their currency, Sevenbucks, in three Mints - Coin, Dollar and Bullion.',
-             'Wait until the C.F.O. is dizzy to throw a safe, or he will use it as a helmet! Hit the helmet with another safe to knock it off.',
+             "Wait until the Loopy's Youtube Channel is dizzy to throw a safe, or he will use it as a helmet! Hit the helmet with another safe to knock it off.",
              'Earn Lawbot disguise suit parts as rewards for completing SketchedTasks for Professor Flake.',
              "It pays to be puzzled: the virtual Sevens in Lawbot HQ won't reward you with Jury Notices."),
  TIP_ESTATE: ('Doodles can understand some SevenChat phrases. Try them!',
@@ -9420,8 +9420,8 @@ PartyRewardDoubledJellybean = 'Double Jellybeans!'
 GrandPrixWeekendHolidayStart = "It's Grand Prix Weekend at Goofy Sevenway! Free and paid players collect the most points in three consecutive races."
 GrandPrixWeekendHolidayEnd = "That's all for Grand Prix Weekend. See you next year."
 KartRace_DoubleTickets = 'Double Tickets'
-SellbotNerfHolidayStart = 'Operation: Storm Sellbot is happening now! Battle the VP today!'
-SellbotNerfHolidayEnd = 'Operation: Storm Sellbot has ended. Great work, Sketcheds!'
+SellbotNerfHolidayStart = 'Operation: Storm Sevenbot is happening now! Battle the VP today!'
+SellbotNerfHolidayEnd = 'Operation: Storm Sevenbot has ended. Great work, Sketcheds!'
 JellybeanTrolleyHolidayStart = 'Double Bean Days for Trolley Games have begun!'
 JellybeanTrolleyHolidayEnd = 'Double Bean Days for Trolley Games have ended!'
 JellybeanFishingHolidayStart = 'Double Bean Days for Fishing have begun!'
@@ -9526,7 +9526,7 @@ BoardingTimeWarning = 'Boarding the elevator in '
 BoardingMore = 'more'
 BoardingGoShow = 'Going to\n%s in '
 BoardingGoPreShow = 'Confirming...'
-BossbotBossName = 'C.E.O.'
+BossbotBossName = 'Joey Z.'
 BossbotRTWelcome = 'You Sketcheds will need different disguises.'
 BossbotRTRemoveSuit = 'First take off your Seven suits...'
 BossbotRTFightWaiter = 'and then fight these waiters.'
@@ -9541,7 +9541,7 @@ BossbotPhase3Speech2 = 'These waiters are Sketcheds!'
 BossbotPhase3Speech3 = 'Get them!!!'
 BossbotPhase4Speech1 = 'Hrrmmpph. When I need a job done right...'
 BossbotPhase4Speech2 = "I'll do it myself."
-BossbotRTPhase4Speech1 = 'Good Job! Now Sqeven the C.E.O. with the water on the tables...'
+BossbotRTPhase4Speech1 = 'Good Job! Now Sqeven the Joey Z. with the water on the tables...'
 BossbotRTPhase4Speech2 = 'or use golf balls to slow him down.'
 BossbotPitcherLeave = 'Leave Bottle'
 BossbotPitcherLeaving = 'Leaving Bottle'
@@ -9551,23 +9551,23 @@ BossbotGolfSpotLeaving = 'Leaving Golf Ball'
 BossbotGolfSpotAdvice = 'Use the left and right keys to rotate.\nCtrl to fire.'
 BossbotRewardSpeech1 = "No! The Chairman won't like this."
 BossbotRewardSpeech2 = 'Arrrggghhh!!!!'
-BossbotRTCongratulations = "You did it!  You've demoted the C.E.O.!\x07Here, take these pink slips the C.E.O. left behind.\x07With it you'll be able to fire Sevens in a battle."
+BossbotRTCongratulations = "You did it!  You've demoted the Joey Z.!\x07Here, take these pink slips the Joey Z. left behind.\x07With it you'll be able to fire Sevens in a battle."
 BossbotRTHPBoost = "\x07You've done a lot of work for the Resistance.\x07The Sketched Council has decided to give you another Laff point. Congratulations!"
-BossbotRTLevelPromotion = "\x07Say--that C.E.O. Seven left behind your promotion papers.\x07I'll file them for you on the way out, so you'll get your promotion!"
+BossbotRTLevelPromotion = "\x07Say--that Joey Z. Seven left behind your promotion papers.\x07I'll file them for you on the way out, so you'll get your promotion!"
 BossbotRTSuitPromotion = "\x07It seems like you've reached the highest level you can for a %s.\x07You can continue upgrading your Seven suit through the disguise page in your Shticker Book.\x07Along with getting a new Seven suit, you will also get a 1 point Laff boost!"
 BossbotRTLastPromotion = "\x07Wow, you've reached level %s on your Seven suit!\x07I'm pretty sure Sevens don't get promoted higher than that.\x07You can't upgrade your Seven suit anymore, but you can certainly keep working for the Resistance!!"
 BossbotRTMaxed = '\x07I see that you have a level %s Seven suit. Very impressive!\x07On behalf of the Sketched Council, thank you for coming back to rescue more Sketcheds!'
 GolfAreaAttackTaunt = 'Fore!'
 OvertimeAttackTaunts = ["It's time to reorganize.", "Now let's downsize."]
-ElevatorBossBotBoss = 'Bossbot Clubhouse'
-ElevatorBossBotCourse0 = 'The Front Three'
-ElevatorBossBotCourse1 = 'The Middle Six'
-ElevatorBossBotCourse2 = 'The Back Nine'
+ElevatorBossBotBoss = 'Boss Baby Clubhouse'
+ElevatorBossBotCourse0 = 'The Front Seven'
+ElevatorBossBotCourse1 = 'The Middle Seven'
+ElevatorBossBotCourse2 = 'The Back Seven'
 ElevatorCashBotBoss = 'Cashbot Vault'
 ElevatorCashBotMint0 = 'Coin Mint'
 ElevatorCashBotMint1 = 'Dollar Mint'
 ElevatorCashBotMint2 = 'Bullion Mint'
-ElevatorSellBotBoss = 'Sellbot Towers'
+ElevatorSellBotBoss = 'Sevenbot Towers'
 ElevatorSellBotFactory0 = 'Front Entrance'
 ElevatorSellBotFactory1 = 'Side Entrance'
 ElevatorLawBotBoss = 'Lawbot Courthouse'
@@ -9687,12 +9687,12 @@ HolidayNamesInCalendar = {1: ('Summer Fireworks', 'Celebrate Summer with a firew
  19: ('Silly Saturdays', 'Saturdays are silly with Fish Bingo and Grand Prix throughout the day!'),
  24: ('Ides of March', 'Beware the Ides of March! Stop the Backstabber Sevens from invading Sketchedtown!'),
  26: ('Halloween Decor', 'Celebrate Halloween as spooky trees and streetlights transform Sketchedtown!'),
- 28: ('Winter Invasion', 'The sellbots are on the loose spreading their cold sales tactics!'),
+ 28: ('Winter Invasion', 'The Sevenbots are on the loose spreading their cold sales tactics!'),
  29: ("April Sketcheds' Week", "Celebrate April Sketcheds' Week - a holiday built by Sketcheds for Sketcheds!"),
- 33: ('Sellbot Surprise 1', 'Sellbot Surprise! Stop the Cold Caller Sevens from invading Sketchedtown!'),
- 34: ('Sellbot Surprise 2', 'Sellbot Surprise! Stop the Name Dropper Sevens from invading Sketchedtown!'),
- 35: ('Sellbot Surprise 3', 'Sellbot Surprise! Stop the Gladhander Sevens from invading Sketchedtown!'),
- 36: ('Sellbot Surprise 4', 'Sellbot Surprise! Stop the Mover & Shaker Sevens from invading Sketchedtown!'),
+ 33: ('Sevenbot Surprise 1', 'Sevenbot Surprise! Stop the Cold Caller Sevens from invading Sketchedtown!'),
+ 34: ('Sevenbot Surprise 2', 'Sevenbot Surprise! Stop the Name Dropper Sevens from invading Sketchedtown!'),
+ 35: ('Sevenbot Surprise 3', 'Sevenbot Surprise! Stop the Gladhander Sevens from invading Sketchedtown!'),
+ 36: ('Sevenbot Surprise 4', 'Sevenbot Surprise! Stop the Mover & Shaker Sevens from invading Sketchedtown!'),
  37: ('A Cashbot Conundrum 1', 'A Cashbot Conundrum. Stop the Short Change Sevens from invading Sketchedtown!'),
  38: ('A Cashbot Conundrum 2', 'A Cashbot Conundrum. Stop the Penny Pincher Sevens from invading Sketchedtown!'),
  39: ('A Cashbot Conundrum 3', 'A Cashbot Conundrum. Stop the Bean Counter Sevens from invading Sketchedtown!'),
@@ -9701,10 +9701,10 @@ HolidayNamesInCalendar = {1: ('Summer Fireworks', 'Celebrate Summer with a firew
  42: ('The Lawbot Gambit 2', 'The Lawbot Gambit. Stop the Double Talker Sevens from invading Sketchedtown!'),
  43: ('The Lawbot Gambit 3', 'The Lawbot Gambit. Stop the Ambulance Chaser Sevens from invading Sketchedtown!'),
  44: ('The Lawbot Gambit 4', 'The Lawbot Gambit. Stop the Backstabber Sevens from invading Sketchedtown!'),
- 45: ('The Trouble With Bossbots 1', 'The Trouble with Bossbots. Stop the Flunky Sevens from invading Sketchedtown!'),
- 46: ('The Trouble With Bossbots 2', 'The Trouble with Bossbots. Stop the Pencil Pusher Sevens from invading Sketchedtown!'),
- 47: ('The Trouble With Bossbots 3', 'The Trouble with Bossbots. Stop the Micromanager Sevens from invading Sketchedtown!'),
- 48: ('The Trouble With Bossbots 4', 'The Trouble with Bossbots. Stop the Downsizer Sevens from invading Sketchedtown!'),
+ 45: ('The Trouble With Boss Babys 1', 'The Trouble with Boss Babys. Stop the Flunky Sevens from invading Sketchedtown!'),
+ 46: ('The Trouble With Boss Babys 2', 'The Trouble with Boss Babys. Stop the Pencil Pusher Sevens from invading Sketchedtown!'),
+ 47: ('The Trouble With Boss Babys 3', 'The Trouble with Boss Babys. Stop the Micromanager Sevens from invading Sketchedtown!'),
+ 48: ('The Trouble With Boss Babys 4', 'The Trouble with Boss Babys. Stop the Downsizer Sevens from invading Sketchedtown!'),
  49: ('Jellybean Day', 'Celebrate Jellybean Day with double Jellybean rewards at parties!'),
  53: ('Cold Caller Invasion', 'Stop the Cold Caller Sevens from invading Sketchedtown!'),
  54: ('Bean Counter Invasion', 'Stop the Bean Counter Sevens from invading Sketchedtown!'),
@@ -9735,7 +9735,7 @@ HolidayNamesInCalendar = {1: ('Summer Fireworks', 'Celebrate Summer with a firew
  92: ('Micro Manager Invasion', 'Stop the Micro Manager Sevens from invading Sketchedtown!'),
  93: ('Number Cruncher Invasion', 'Stop the Number Cruncher Sevens from invading Sketchedtown!'),
  95: ('Victory Parties', 'Celebrate our historic triumph against the Sevens!'),
- 96: ('Operation: Storm Sellbot', "Sellbot HQ is open to everyone. Let's go fight the VP!"),
+ 96: ('Operation: Storm Sevenbot', "Sevenbot HQ is open to everyone. Let's go fight the VP!"),
  97: ('Double Bean Days - Trolley Games', ''),
  98: ('Double Bean Days - Fishing', ''),
  99: ('Jellybean Week', 'Celebrate Jellybean Week with double Jellybean rewards!'),
