@@ -1,4 +1,4 @@
-Toontown Sketched 7 ================= 
+# Toontown Sketched 7
 Toontown Sketched 7 is a free, non-profit game inspired by _Disney's Toontown Online_.
 
 ### Contributing ###
