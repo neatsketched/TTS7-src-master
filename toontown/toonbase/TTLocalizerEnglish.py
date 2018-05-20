@@ -5066,7 +5066,7 @@ BattleGlobalAvPropStringsPlural = (('Feathers',
   'Big Weights',
   'Sevens',
   'Grand Pianos',
-  'Oceanliners'))
+  'Sketchedtanics'))
 BattleGlobalAvTrackAccStrings = ('77%',
  '107%',
  '7%',
