@@ -202,6 +202,7 @@ LawbotStageIntA = 13300
 LawbotStageIntB = 13400
 LawbotStageIntC = 13500
 LawbotStageIntD = 13600
+LawbotStageIntsEven = 13700
 Tutorial = 15000
 MyEstate = 16000
 GolfZone = 17000
@@ -282,15 +283,18 @@ LawbotStageBossLevel = 12
 StageNumBattles = {LawbotStageIntA: 0,
  LawbotStageIntB: 0,
  LawbotStageIntC: 0,
- LawbotStageIntD: 0}
+ LawbotStageIntD: 0,
+ LawbotStageIntsEven: 0}
 StageNoticeRewards = {LawbotStageIntA: 75,
  LawbotStageIntB: 150,
  LawbotStageIntC: 225,
- LawbotStageIntD: 300}
+ LawbotStageIntD: 300,
+ LawbotStageIntsEven: 375}
 StageNumRooms = {LawbotStageIntA: 2 * (6,) + 5 * (7,) + 5 * (8,) + 5 * (9,) + 3 * (10,),
  LawbotStageIntB: 3 * (8,) + 6 * (9,) + 6 * (10,) + 5 * (11,),
  LawbotStageIntC: 4 * (10,) + 10 * (11,) + 6 * (12,),
- LawbotStageIntD: 4 * (10,) + 10 * (11,) + 6 * (12,)}
+ LawbotStageIntD: 4 * (10,) + 10 * (11,) + 6 * (12,),
+ LawbotStageIntsEven: 4 * (10,) + 10 * (11,) + 6 * (12,)}
 FT_FullSuit = 'fullSuit'
 FT_Leg = 'leg'
 FT_Arm = 'arm'
@@ -1471,10 +1475,7 @@ ColorNoChat = (0.8,
  1)
 FactoryLaffMinimums = [(0, 31),
  (0, 66, 71),
- (0,
-  81,
-  86,
-  96),
+ (0, 81, 86, 96, 100),
  (0, 101, 106)]
 PICNIC_COUNTDOWN_TIME = 60
 BossbotRTIntroStartPosHpr = (0,

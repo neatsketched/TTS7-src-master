@@ -12,7 +12,8 @@ StageId2Layouts = {
     ToontownGlobals.LawbotStageIntA: (0, 1, 2),
     ToontownGlobals.LawbotStageIntB: (3, 4, 5),
     ToontownGlobals.LawbotStageIntC: (6, 7, 8),
-    ToontownGlobals.LawbotStageIntD: (9, 10, 11)
+    ToontownGlobals.LawbotStageIntD: (9, 10, 11),
+    ToontownGlobals.LawbotStageIntsEven: (12, 13, 14)
 }
 
 

@@ -36,7 +36,8 @@ class DistributedLawOfficeElevatorExt(DistributedElevatorExt.DistributedElevator
         entranceId2zoneId = {0: ToontownGlobals.LawbotStageIntA,
          1: ToontownGlobals.LawbotStageIntB,
          2: ToontownGlobals.LawbotStageIntC,
-         3: ToontownGlobals.LawbotStageIntD}
+         3: ToontownGlobals.LawbotStageIntD,
+         4: ToontownGlobals.LawbotStageIntsEven}
         self.intZoneId = entranceId2zoneId[entranceId]
         locator = geom.find('**/elevator_signorigin_%s' % entranceId)
         backgroundGeom = geom.find('**/ElevatorFrameFront_%d' % entranceId)
@@ -105,3 +106,5 @@ class DistributedLawOfficeElevatorExt(DistributedElevatorExt.DistributedElevator
             return TTLocalizer.ElevatorLawBotCourse2
         elif self.intZoneId == ToontownGlobals.LawbotStageIntD:
             return TTLocalizer.ElevatorLawBotCourse3
+        elif self.intZoneId == ToontownGlobals.LawbotStageIntsEven:
+            return TTLocalizer.ElevatorLawBotCourse4
