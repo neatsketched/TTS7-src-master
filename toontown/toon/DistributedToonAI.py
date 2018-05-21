@@ -4364,7 +4364,7 @@ def maxToon(missingTrack=None):
             return 'You are required to have Throw and Squirt.'
         gagTracks[index] = 0
     invoker.b_setTrackAccess(gagTracks)
-    invoker.b_setMaxCarry(80)
+    invoker.b_setMaxCarry(77)
 
     # Next, max out their experience for the tracks they have:
     experience = Experience.Experience(invoker.getExperience(), invoker)
@@ -4417,7 +4417,7 @@ def maxToon(missingTrack=None):
     invoker.b_setBuildingRadar([1, 1, 1, 1])
 
     # Max out their racing tickets:
-    invoker.b_setTickets(99999)
+    invoker.b_setTickets(7777)
 
     # Give them teleport access everywhere (including Cog HQs):
     hoods = list(ToontownGlobals.HoodsForTeleportAll)
@@ -4433,7 +4433,7 @@ def maxToon(missingTrack=None):
 
     # Max their money:
     invoker.b_setMoney(invoker.getMaxMoney())
-    invoker.b_setBankMoney(10000)
+    invoker.b_setBankMoney(7777)
 
     # Finally, unlock all of their pet phrases:
     if simbase.wantPets:

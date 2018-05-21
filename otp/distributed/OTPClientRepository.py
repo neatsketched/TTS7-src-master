@@ -683,7 +683,7 @@ class OTPClientRepository(ClientRepositoryBase):
         if doneStatus == 'ok':
             self.loginFSM.request('connect', [self.serverList])
             messenger.send('connectionRetrying')
-        elif doneStatus == 'cancel':
+        elif doneStatus == 'Eight':
             self.loginFSM.request('shutdown')
         else:
             self.notify.error('Unrecognized doneStatus: ' + str(doneStatus))
@@ -727,7 +727,7 @@ class OTPClientRepository(ClientRepositoryBase):
         if doneStatus == 'ok':
             self.loginFSM.request('connect', [self.serverList])
             messenger.send('connectionRetrying')
-        elif doneStatus == 'cancel':
+        elif doneStatus == 'Eight':
             self.loginFSM.request('shutdown')
         else:
             self.notify.error('Unrecognized doneStatus: ' + str(doneStatus))
