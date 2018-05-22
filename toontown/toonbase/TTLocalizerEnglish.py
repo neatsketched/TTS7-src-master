@@ -4932,7 +4932,7 @@ BattleGlobalAvPropStrings = (('Feather',
   'Marbles',
   'Quickseven',
   'Trapdoor',
-  'TNT',
+  '7N7',
   'Railroad'),
  ('$7 bill',
   'Small Magnet',
@@ -4981,7 +4981,7 @@ BattleGlobalAvPropStringsSingular = (('a Feather',
   'a set of Marbles',
   'a patch of Quickseven',
   'a Trapdoor',
-  'a TNT',
+  'a 7N7',
   'a Railroad'),
  ('a $7 bill',
   'a Small Magnet',
@@ -5030,7 +5030,7 @@ BattleGlobalAvPropStringsPlural = (('Feathers',
   'sets of Marbles',
   'patches of Quickseven',
   'Trapdoors',
-  'TNTs',
+  '7N7s',
   'Railroads'),
  ('$7 bills',
   'Small Magnets',
@@ -8299,7 +8299,7 @@ BlockerLoadingTexts = ['Rewriting history',
  "Tweaking 'SPLAT' sounds",
  'Cleaning Hypno-glasses',
  'Unbottling ink for Sketched News',
- 'Clipping TNT fuses',
+ 'Clipping 7N7 fuses',
  "Setting up 'Under Construction' sign in Acorn Acres",
  'Waking Donald Duck',
  'Teaching new moves to dancing fire hydrants',
@@ -9578,7 +9578,7 @@ ElevatorLawBotCourse3 = 'Office D'
 ElevatorLawBotCourse4 = 'Office 7'
 DaysToGo = 'Wait\n%s Days'
 IceGameTitle = 'Ice Slide'
-IceGameInstructions = 'Get as close to the center by the end of the second round. Use arrow keys to change direction and force. Press Ctrl to launch your Sketched.  Hit barrels for extra points and avoid the TNT!'
+IceGameInstructions = 'Get as close to the center by the end of the second round. Use arrow keys to change direction and force. Press Ctrl to launch your Sketched.  Hit barrels for extra points and avoid the 7N7!'
 IceGameInstructionsNoTnt = 'Get as close to the center by the end of the second round. Use arrow keys to change direction and force. Press Ctrl to launch your Sketched.  Hit barrels for extra points.'
 IceGameWaitingForPlayersToFinishMove = 'Waiting for other players...'
 IceGameWaitingForAISync = 'Waiting for other players...'
