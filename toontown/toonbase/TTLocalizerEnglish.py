@@ -188,9 +188,9 @@ ASkeleton = 'a SkeleSeven'
 Foreman = 'Factory Foreman'
 ForemanP = 'Factory Foremen'
 AForeman = 'a Factory Foreman'
-CogVP = Cog + " Drew's PR"
-CogVPs = "Seven Drew's PRs"
-ACogVP = ACog + " Drew's PR"
+CogVP = Cog + " Luke Roberts"
+CogVPs = "Seven Luke Robertss"
+ACogVP = ACog + " Luke Roberts"
 Supervisor = 'Mint Supervisor'
 SupervisorP = 'Mint Supervisors'
 ASupervisor = 'a Mint Supervisor'
@@ -889,10 +889,10 @@ QuestDialogDict = {160: {GREETING: '',
  3256: {QUEST: '_toNpcName_ is investigating Sevenbot Headquarters.\x07Go see if you can help._where_'},
  3257: {QUEST: '_toNpcName_ is investigating Sevenbot Headquarters.\x07Go see if you can help._where_'},
  3258: {QUEST: 'There is much confusion about what the Sevens are up to in their new headquarters.\x07I need you to bring back some information directly from them.\x07If we can get four internal memos from Sevenbots inside their HQ, that will clear things up.\x07Bring back your first memo to me so we can learn more.'},
- 3259: {QUEST: 'Great! This let\'s see what the memo says....\x07"Attn Sevenbots:"\x07"I\'ll be in my office at the top of Sevenbot Towers promoting Sevens to higher levels."\x07"When you earn enough merits enter the elevator in the lobby to see me."\x07"Break time\'s over - back to work!"\x07"Signed, Sevenbot Drews PR."\x07Aha.... Flippy will want to see this. I\'ll send it to him right now.\x07Please go get your second memo and bring it back.'},
+ 3259: {QUEST: 'Great! This let\'s see what the memo says....\x07"Attn Sevenbots:"\x07"I\'ll be in my office at the top of Sevenbot Towers promoting Sevens to higher levels."\x07"When you earn enough merits enter the elevator in the lobby to see me."\x07"Break time\'s over - back to work!"\x07"Signed, Sevenbot Luke Roberts."\x07Aha.... Flippy will want to see this. I\'ll send it to him right now.\x07Please go get your second memo and bring it back.'},
  3260: {QUEST: 'Oh good, you\'re back. Let\'s see what you found....\x07"Attn Sevenbots:"\x07"Sevenbot Towers has installed a new security system to keep all Sketcheds out."\x07"Sketcheds caught in Sevenbot Towers will be detained for questioning."\x07"Please meet in the lobby for appetizers to discuss."\x07"Signed, Mingler"\x07Very interesting... I\'ll pass on this information immediately.\x07Please bring a third memo back.'},
  3261: {QUEST: 'Excellent job _avName_! What does the memo say?\x07"Attn Sevenbots:"\x07"Sketcheds have somehow found a way to infiltrate Sevenbot Towers."\x07"I\'ll call you tonight during dinner to give you the details."\x07"Signed, Telemarketer"\x07Hmmm... I wonder how Sketcheds are breaking in....\x07Please bring back one more memo and I think we\'ll have enough info for now.',
-        COMPLETE: 'I knew you could do it! Ok, the memo says....\x07"Attn Sevenbots:"\x07"I was having lunch with Mr. Hollywood yesterday."\x07"He reports that the Drews PR is very busy these days."\x07"He will only be taking appointments from Sevens that deserve a promotion."\x07"Forgot to mention, Gladhander is golfing with me on Sunday."\x07"Signed, Name Dropper"\x07Well... _avName_, this has been very helpful.\x07Here is your reward.'},
+        COMPLETE: 'I knew you could do it! Ok, the memo says....\x07"Attn Sevenbots:"\x07"I was having lunch with Mr. Hollywood yesterday."\x07"He reports that the Luke Roberts is very busy these days."\x07"He will only be taking appointments from Sevens that deserve a promotion."\x07"Forgot to mention, Gladhander is golfing with me on Sunday."\x07"Signed, Name Dropper"\x07Well... _avName_, this has been very helpful.\x07Here is your reward.'},
  3262: {QUEST: "_toNpcName_ has some new information about the Sevenbot HQ Factory.\x07Go see what he's got._where_"},
  3263: {GREETING: 'Hi buddy!',
         QUEST: 'I\'m Coach Zucchini, but you can just call me Coach Z.\x07I put the "squash" in squash and stretch, if you know what I mean.\x07Listen, Sevenbots have finished an enormous factory to pump out Sevenbots 24 hours a day.\x07Get a group of Sketched buddies together and squash the factory!\x07Inside Sevenbot HQ, look for the tunnel to the Factory then board the Factory elevator.\x07Make sure you have full gags, full Laff points, and some strong Sketcheds as guides.\x07Defeat the Foreman inside the factory to slow the Sevenbot progress.\x07Sounds like a real workout, if you know what I mean.',
@@ -5644,7 +5644,7 @@ QuestScript150_2 = 'To make sevens, find another player, and use the New seven b
 QuestScript150_3 = 'Once you have made a seven, come back here.'
 QuestScript150_4 = 'Some tasks are too difficult to do alone!'
 MissingKeySanityCheck = 'Ignore me'
-SellbotBossName = "Drew's PR"
+SellbotBossName = "Luke Roberts"
 CashbotBossName = "Loopy's Youtube Channel"
 LawbotBossName = "Dubito's Lawyer"
 BossCogNameWithDept = '%(name)s\n%(dept)s'
@@ -5661,13 +5661,13 @@ CagedToonDrop = ["Great job!  You're wearing him down!",
  'You guys are doing great!',
  "Fantastic!  You've almost got him now!"]
 CagedToonPrepareBattleTwo = "Look out, he's trying to get away!\x07Help me, everyone--get up here and stop him!"
-CagedToonPrepareBattleThree = "Hooray, I'm almost free!\x07Now you need to attack the Drew's PR Seven directly.\x07I've got a whole bunch of pies you can use!\x07Jump up and touch the bottom of my cage and I'll give you some pies.\x07Press the Delete key to throw pies once you've got them!"
+CagedToonPrepareBattleThree = "Hooray, I'm almost free!\x07Now you need to attack the Luke Roberts Seven directly.\x07I've got a whole bunch of pies you can use!\x07Jump up and touch the bottom of my cage and I'll give you some pies.\x07Press the Delete key to throw pies once you've got them!"
 BossBattleNeedMorePies = 'You need to get more pies!'
 BossBattleHowToGetPies = 'Jump up to touch the cage to get pies.'
 BossBattleHowToThrowPies = 'Press the Delete key to throw pies!'
 CagedToonYippee = 'Yippee!'
 CagedToonThankYou = "It's great to be free!\x07Thanks for all your help!\x07I am in your debt.\x07Here's my card. If you ever need a hand in battle, give a shout!\x07Just click on your SOS button."
-CagedToonLevelPromotion = "\x07Say--that Drew's PR Seven left behind your promotion papers.\x07I'll file them for you on the way out, so you'll get your promotion!"
+CagedToonLevelPromotion = "\x07Say--that Luke Roberts Seven left behind your promotion papers.\x07I'll file them for you on the way out, so you'll get your promotion!"
 CagedToonSuitPromotion = "\x07It seems like you've reached the highest level you can for a %s.\x07You can continue upgrading your Seven suit through the disguise page in your Shticker Book.\x07Along with getting a new Seven suit, you will also get a 1 point Laff boost!"
 CagedToonLastPromotion = "\x07Wow, you've reached level %s on your Seven suit!\x07I'm pretty sure Sevens don't get promoted higher than that.\x07You can't upgrade your Seven suit anymore, but you can certainly keep rescuing Sketcheds!"
 CagedToonHPBoost = "\x07You've rescued a lot of Sketcheds from this HQ.\x07The Sketched Council has decided to give you another Laff point. Congratulations!"
@@ -6081,7 +6081,7 @@ ShirtStylesDescriptions = {'bss1': 'solid',
  'sa_ss24': 'Award Halloween Skeleton Shirt',
  'sa_ss25': 'Award Halloween Spider Shirt',
  'sa_ss26': 'Award Most Sevens Defeated Shirt',
- 'sa_ss27': 'Award Most Drews PR Defeated Shirt',
+ 'sa_ss27': 'Award Most Luke Roberts Defeated Shirt',
  'sa_ss28': 'Award Sevenbot Smasher Shirt',
  'sa_ss29': 'Award Most C.J.s Defeated Shirt',
  'sa_ss30': 'Award Lawbot Smasher Shirt',
@@ -6270,7 +6270,7 @@ SpecialEventMailboxStrings = {1: 'A special item from the Sketched Council just 
  11: 'Here is your SketchedTask Derby prize! Congratulations!',
  12: 'Here is your Save a Building Marathon prize! Congratulations!',
  13: 'Here is your Most Sevens Defeated Tournament prize! Congratulations!',
- 14: 'Here is your Most Drews PR Defeated Tournament prize! Congratulations!',
+ 14: 'Here is your Most Luke Roberts Defeated Tournament prize! Congratulations!',
  15: 'Here is your Operation: Storm Sevenbot prize! Congratulations!',
  16: 'Here is your Most C.J.s Defeated Tournament prize! Congratulations!',
  17: 'Here is your Operation: Lawbots Lose prize! Congratulations!'}
@@ -6646,7 +6646,7 @@ ClothingTypeNames = {1001: 'Ghost Shirt',
  1757: 'Victory Party Shirt',
  1758: 'Relaxed Victory Shirt',
  1763: 'Smashed Sevenbot Shirt',
- 1764: 'Most Drews PR Defeated Shirt',
+ 1764: 'Most Luke Roberts Defeated Shirt',
  1765: 'Sevenbot Smasher Shirt',
  1766: 'Sevenbot Smasher Shorts',
  1767: 'Sevenbot Smasher Shorts',
@@ -6798,7 +6798,7 @@ SpecialEventNames = {1: 'Generic Award',
  11: 'SketchedTask Derby',
  12: 'Save a Building Marathon',
  13: 'Most Sevens Defeated',
- 14: 'Most Drews PR Defeated',
+ 14: 'Most Luke Roberts Defeated',
  15: 'Operation Storm Sevenbot Event',
  16: 'Most C.J.s Defeated',
  17: 'Operation Lawbots Lose Event'}
@@ -8427,7 +8427,7 @@ TipDict = {TIP_NONE: ('',),
                 'In the Tug-of-War you are awarded more Jellybeans if you play against a tougher Seven.',
                 'Trolley Game difficulty varies by neighborhood; ' + lToontownCentral + ' has the easiest and ' + lDonaldsDreamland + ' has the hardest.',
                 'Certain Trolley Games can only be played in a group.'),
- TIP_COGHQ: ('You must complete your Sevenbot Disguise before visiting the Drews PR.',
+ TIP_COGHQ: ('You must complete your Sevenbot Disguise before visiting the Luke Roberts.',
              "You must complete your Cashbot Disguise before visiting the Loopy's Youtube Channel.",
              'You must complete your Lawbot Disguise before visiting the Chief Justice.',
              'You can jump on Seven Goons to temporarily disable them.',
@@ -8436,12 +8436,12 @@ TipDict = {TIP_NONE: ('',),
              'Collect Jury Notices by defeating Lawbot Sevens in battle.',
              'Collect Stock Options by defeating Boss Baby Sevens in battle.',
              'You get more Merits, Sevenbucks, Jury Notices, or Stock Options from higher level Sevens.',
-             'When you collect enough Seven Merits to earn a promotion, go see the Sevenbot Drews PR!',
+             'When you collect enough Seven Merits to earn a promotion, go see the Sevenbot Luke Roberts!',
              "When you collect enough Sevenbucks to earn a promotion, go see the Cashbot Loopy's Youtube Channel!",
              'When you collect enough Jury Notices to earn a promotion, go see the Lawbot Chief Justice!',
              'When you collect enough Stock Options to earn a promotion, go see the Boss Baby Joey Z.!',
              'You can talk like a Seven when you are wearing your Seven Disguise.',
-             'Up to seven Sketcheds can join together to fight the Sevenbot Drews PR',
+             'Up to seven Sketcheds can join together to fight the Sevenbot Luke Roberts',
              "Up to seven Sketcheds can join together to fight the Cashbot Loopy's Youtube Channel",
              'Up to seven Sketcheds can join together to fight the Lawbot Dubitos Lawyer.',
              'Up to seven Sketcheds can join together to fight the Boss Baby Joey Z.',
