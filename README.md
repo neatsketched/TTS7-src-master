@@ -9,3 +9,5 @@ Don't just start contributing. We talk about what we are about to do before we d
 **Source base**: Toontown Infinite Team
 
 **Source Leak**: Via Judge2020
+
+**Panda 3d Ver*: http://www.mediafire.com/file/mvhl1i7unbop5sm/Panda3D-1.9.0.rar
