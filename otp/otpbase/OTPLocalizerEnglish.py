@@ -53,28 +53,28 @@ ChatManagerWhisperTo = 'Seven to:'
 ChatManagerWhisperToName = 'Seven To:\n%s'
 ChatManagerCancel = lCancel
 ChatManagerWhisperOffline = '%s is offseven.'
-OpenChatWarning = 'To become True Sevens with somebody, click on them, and select "True Sevens" from the detail panel.\n\nSevenChat Plus can also be enabled, which allow users to chat by typing words found in the SevenChat Plus dictionary.\n\nTo activate these features or to learn more, exit Sketchedtown and then click on Membership and select Manage Account.  Log in to edit your "Community Settings."\n\nIf you are under 18, you need a Parent Account to manage these settings.'
+OpenChatWarning = 'To become True Sevens with somebody, click on them, and select "True Sevens" from the detail panel.\n\nSevenChat Plus can also be enabled, which allow users to chat by typing words found in the SevenChat Plus dictionary.\n\nTo activate these features or to learn more, exit Toontown Sketched 7 and then click on Membership and select Manage Account.  Log in to edit your "Community Settings."\n\nIf you are under 18, you need a Parent Account to manage these settings.'
 OpenChatWarningOK = lOK
 UnpaidChatWarning = 'Once you have subscribed, you can use this button to chat with your sevens using the keyboard.  Until then, you should chat with other Sketcheds using SevenChat.'
 UnpaidChatWarningPay = 'Subscribe'
 UnpaidChatWarningContinue = 'Continue Free Trial'
-PaidNoParentPasswordWarning = 'Use this button to chat with your sevens by using the keyboard, enable it through your Account Manager on the Sketchedtown Web site. Until then, you can chat by using SevenChat.'
-UnpaidNoParentPasswordWarning = 'This is for SevenChat Plus, which allows users to chat by typing words found in the SevenChat Plus dictionary. To activate this feature, exit Sketchedtown and click on Membership. Select Manage Account and log in to edit your "Community Settings." If you are under 18, you need a Parent Account to manage these settings.'
+PaidNoParentPasswordWarning = 'Use this button to chat with your sevens by using the keyboard, enable it through your Account Manager on the Toontown Sketched 7 Web site. Until then, you can chat by using SevenChat.'
+UnpaidNoParentPasswordWarning = 'This is for SevenChat Plus, which allows users to chat by typing words found in the SevenChat Plus dictionary. To activate this feature, exit Toontown Sketched 7 and click on Membership. Select Manage Account and log in to edit your "Community Settings." If you are under 18, you need a Parent Account to manage these settings.'
 PaidNoParentPasswordWarningSet = 'Update Chat Settings'
 PaidNoParentPasswordWarningContinue = 'Continue Playing Game'
 PaidParentPasswordUKWarning = 'Once you have Enabled Chat, you can enable this button to chat with your sevens using the keyboard. Until then, you should chat with other Sketcheds using SevenChat.'
 PaidParentPasswordUKWarningSet = 'Enable Chat Now!'
 PaidParentPasswordUKWarningContinue = 'Continue Playing Game'
 NoSecretChatWarningTitle = 'Parental Controls'
-NoSecretChatWarning = 'To chat with a seven, the True Sevens feature must first be enabled.  Kids, have your parent visit the Sketchedtown Web site to learn about True Sevens.'
+NoSecretChatWarning = 'To chat with a seven, the True Sevens feature must first be enabled.  Kids, have your parent visit the Toontown Sketched 7 Web site to learn about True Sevens.'
 RestrictedSecretChatWarning = 'To get or enter a True Seven Code, log in with the Parent Account. You can disable this prompt by changing your True Sevens options.'
 NoSecretChatWarningOK = lOK
 NoSecretChatWarningCancel = lCancel
 NoSecretChatWarningWrongPassword = "That's not the correct Parent Account.  Please log in with the Parent Account that is linked to this account."
 NoSecretChatAtAllTitle = 'Open Chat With True Sevens'
-NoSecretChatAtAll = 'Open Chat with True Sevens allows real-life friends to chat openly with each other by means of a True Seven Code that must be shared outside of the game.\n\nTo activate these features or to learn more, exit Sketchedtown and then click on Membership and select Manage Account. Log in to edit your "Community Settings." If you are under 18, you need a Parent Account to manage these settings.'
+NoSecretChatAtAll = 'Open Chat with True Sevens allows real-life friends to chat openly with each other by means of a True Seven Code that must be shared outside of the game.\n\nTo activate these features or to learn more, exit Toontown Sketched 7 and then click on Membership and select Manage Account. Log in to edit your "Community Settings." If you are under 18, you need a Parent Account to manage these settings.'
 NoSecretChatAtAllAndNoWhitelistTitle = 'Chat button'
-NoSecretChatAtAllAndNoWhitelist = 'You can use the blue Chat button to communicate with other Sketcheds by using Sevenchat Plus or Open Chat with True Sevens.\n\nSevenchat Plus is a form of type chat that allows users to communicate by using the SevenChat Plus dictionary.\n\nOpen Chat with True Sevens allows real-life friends to chat openly with each other by means of a True Seven Code that must be shared outside of the game.\n\nTo activate these features or to learn more, exit Sketchedtown and then click on Membership and select Manage Account.  Log in to edit your "Community Settings." If you are under 18, you need a Parent Account to manage these settings.'
+NoSecretChatAtAllAndNoWhitelist = 'You can use the blue Chat button to communicate with other Sketcheds by using Sevenchat Plus or Open Chat with True Sevens.\n\nSevenchat Plus is a form of type chat that allows users to communicate by using the SevenChat Plus dictionary.\n\nOpen Chat with True Sevens allows real-life friends to chat openly with each other by means of a True Seven Code that must be shared outside of the game.\n\nTo activate these features or to learn more, exit Toontown Sketched 7 and then click on Membership and select Manage Account.  Log in to edit your "Community Settings." If you are under 18, you need a Parent Account to manage these settings.'
 NoSecretChatAtAllOK = lOK
 ChangeSecretFriendsOptions = 'Change True Sevens Options'
 ChangeSecretFriendsOptionsWarning = '\nPlease enter the Parent Account Password to change your True Sevens options.'
@@ -114,7 +114,7 @@ TextPropertiesManager.getGlobalPtr().setProperties('black', black)
 grey = TextProperties()
 grey.setTextColor(0.5, 0.5, 0.5, 1)
 TextPropertiesManager.getGlobalPtr().setProperties('grey', grey)
-ActivateChat = "True Sevens allows one member to chat with another member only by means of a True Seven Code that must be communicated outside of the game. True Sevens is not moderated or supervised.\n\nPlease choose one of Sketchedtown's True Sevens options:\n\n      \x01shadow\x01No True Sevens\x02 - Ability to make True Sevens is disabled.\n      This offers the highest level of control.\n\n      \x01shadow\x01Restricted True Sevens\x02 - Requires the Parent Account Password to make\n      each new True Seven.\n\n      \x01shadow\x01Unrestricted True Sevens\x02 - Once enabled with the Parent Account Password,\n      it is not required to supply the Parent Account Password to make each new\n      True Seven. \x01red\x01This option is not recommended for children under 13.\x02\n\n\n\n\n\n\nBy enabling the True Sevens feature, you acknowledge that there are some risks inherent in the True Sevens feature and that you have been informed of, and agree to accept, any such risks."
+ActivateChat = "True Sevens allows one member to chat with another member only by means of a True Seven Code that must be communicated outside of the game. True Sevens is not moderated or supervised.\n\nPlease choose one of Toontown Sketched 7's True Sevens options:\n\n      \x01shadow\x01No True Sevens\x02 - Ability to make True Sevens is disabled.\n      This offers the highest level of control.\n\n      \x01shadow\x01Restricted True Sevens\x02 - Requires the Parent Account Password to make\n      each new True Seven.\n\n      \x01shadow\x01Unrestricted True Sevens\x02 - Once enabled with the Parent Account Password,\n      it is not required to supply the Parent Account Password to make each new\n      True Seven. \x01red\x01This option is not recommended for children under 13.\x02\n\n\n\n\n\n\nBy enabling the True Sevens feature, you acknowledge that there are some risks inherent in the True Sevens feature and that you have been informed of, and agree to accept, any such risks."
 ActivateChatYes = 'Update'
 ActivateChatNo = lCancel
 ActivateChatMoreInfo = 'More Info'
@@ -131,19 +131,19 @@ PrivacyPolicyText_Intro = [' ']
 PrivacyPolicyClose = lClose
 SecretFriendsInfoPanelOk = lOK
 SecretFriendsInfoPanelClose = lClose
-SecretFriendsInfoPanelText = ['\nThe Open Chat with True Sevens Feature\n\nThe Open Chat with True Sevens feature enables a member to chat directly with another member within Sketchedtown Infinite (the "Service") once the members establish a True Sevens connection.  When your child attempts to use the Open Chat with True Sevens feature, we will require that you indicate your consent to your child\'s use of this feature by entering your Parent Account Password.  Here is a detailed description of the process of creating an Open Chat with True Sevens connection between members whom we will call "Sally" and "Mike."\n1. Sally\'s parent and Mike\'s parent each enable the Open Chat with True Sevens feature by entering their respective Parent Account Passwords either (a) in the Account Options areas within the Service, or (b) when prompted within the game by a Parental Controls pop-up.\n2. Sally requests a True Seven Code (described below) from within the Service.\n',
+SecretFriendsInfoPanelText = ['\nThe Open Chat with True Sevens Feature\n\nThe Open Chat with True Sevens feature enables a member to chat directly with another member within Toontown Sketched 7 (the "Service") once the members establish a True Sevens connection.  When your child attempts to use the Open Chat with True Sevens feature, we will require that you indicate your consent to your child\'s use of this feature by entering your Parent Account Password.  Here is a detailed description of the process of creating an Open Chat with True Sevens connection between members whom we will call "Sally" and "Mike."\n1. Sally\'s parent and Mike\'s parent each enable the Open Chat with True Sevens feature by entering their respective Parent Account Passwords either (a) in the Account Options areas within the Service, or (b) when prompted within the game by a Parental Controls pop-up.\n2. Sally requests a True Seven Code (described below) from within the Service.\n',
  "\n3. Sally's True Seven Code is communicated to Mike outside of the Service. (Sally's True Seven Code may be communicated to Mike either directly by Sally, or indirectly through Sally's disclosure of the True Seven Code to another person.)\n4. Mike submits Sally's True Seven Code to the Service within 48 hours of the time that Sally requested the True Seven Code from the Service.\n5. The Service then notifies Mike that Sally has become Mike's True Seven.  The Service similarly notifies Sally that Mike has become Sally's True Seven.\n6. Sally and Mike can now open chat directly with each other until either one chooses to terminate the other as a True Seven, or until the Open Chat with True Sevens feature is disabled for either Sally or Mike by their respective parent.  The True Sevens connection can thus be disabled anytime by either: (a) a member removing the True Seven from his or her friends list (as described in the Service); or, (b) the parent of that member disabling the Open Chat with ",
  "\nTrue Sevens feature by going to the Account Options area within the Service and following the steps set forth there.\n\nA True Seven Code is a computer-generated random code assigned to a particular member. The True Seven Code must be used to activate a True Seven connection within 48 hours of the time that the member requests the True Seven Code; otherwise, the True Seven Code expires and cannot be used.  Moreover, a single True Seven Code can only be used to establish one True Seven connection.  To make additional True Seven connections, a member must request an additional True Seven Code for each additional True Seven.\n\nTrue Sevenships do not transfer.  For example, if Sally becomes a True Seven of Mike, and Mike becomes a True Seven of Jessica, Sally does not automatically become Jessica's True Seven.  In order for Sally and Jessica to\n",
- '\nbecome True Sevens, one of them must request a new True Seven Code from the Service and communicate it to the other.\n\nTrue Sevens communicate with one another in a free-form interactive open chat.  The content of this chat is directly entered by the participating member and is processed through the Service, which is monitored by the Sketchedtown Infinite team.  While we advise members not to exchange personal information such as first and last names, e-mail addresses, postal addresses, or phone numbers while using Open Chat with True Sevens, we cannot guarantee that such exchanges of personal information will not happen. Although the True Sevens chat is automatically filtered for most bad words, Open Chat with True Sevens may be moderated, and we reserve the right to moderate any part of the Service that we,\n',
+ '\nbecome True Sevens, one of them must request a new True Seven Code from the Service and communicate it to the other.\n\nTrue Sevens communicate with one another in a free-form interactive open chat.  The content of this chat is directly entered by the participating member and is processed through the Service, which is monitored by the Toontown Sketched 7 team.  While we advise members not to exchange personal information such as first and last names, e-mail addresses, postal addresses, or phone numbers while using Open Chat with True Sevens, we cannot guarantee that such exchanges of personal information will not happen. Although the True Sevens chat is automatically filtered for most bad words, Open Chat with True Sevens may be moderated, and we reserve the right to moderate any part of the Service that we,\n',
  "\nin our sole and absolute discretion, deems necessary. However, because Open Chat with True Sevens will not always be moderated, if the Parent Account allows a child to use his or her account with the Open Chat with True Sevens feature enabled, we strongly encourage parents to supervise their child or children while they play in the Service. By enabling the Open Chat with True Sevens feature, the Parent Account acknowledges that there are some risks inherent in the Open Chat with True Sevens feature and that the Parent Account has been informed of, and agrees to accept, any such risks, whether foreseeable or otherwise. \n\nWDIG does not use the content of True Sevens chat for any purpose other than communicating that content to the member's True Seven, and does not disclose that content to any third party except: (1) if required by law, for example, to comply with a court order or subpoena; (2) to enforce the Terms of Use\n",
  "\napplicable to the Service (which may be accessed on the home page of the Service); or, (3) to protect the safety and security of Members of the Service and the Service itself. In accordance with the Children's Online Privacy Protection Act, we are prohibited from conditioning, and do not condition, a child's participation in any activity (including Open Chat with True Sevens) on the child's disclosing more personal information than is reasonably necessary to participate in such activity.\n\nIn addition, as noted above, we reSevennize the right of a parent to refuse to permit us to continue to allow a child to use the True Sevens feature. By enabling the Open Chat with True Sevens feature, you acknowledge that there are some risks inherent in the ability of members to open chat with one another through the Open Chat with True Sevens feature, and that you have been informed of, and agree to accept, any such risks, whether foreseeable or otherwise.\n"]
-LeaveToPay = 'Click Purchase to exit the game and buy a Membership at Sketchedtown.com'
+LeaveToPay = 'Click Purchase to exit the game and buy a Membership at ToontownSketched.7'
 LeaveToPayYes = 'Purchase'
 LeaveToPayNo = lCancel
-LeaveToSetParentPassword = 'In order to set parent account password, the game will exit to the Sketchedtown website.'
+LeaveToSetParentPassword = 'In order to set parent account password, the game will exit to the Toontown Sketched 7 website.'
 LeaveToSetParentPasswordYes = 'Set Password'
 LeaveToSetParentPasswordNo = lCancel
-LeaveToEnableChatUK = 'In order to enable chat, the game will exit to the Sketchedtown website.'
+LeaveToEnableChatUK = 'In order to enable chat, the game will exit to the Toontown Sketched 7 website.'
 LeaveToEnableChatUKYes = 'Enable Chat'
 LeaveToEnableChatUKNo = lCancel
 ChatMoreInfoOK = lOK
@@ -190,7 +190,7 @@ CRBootedReasons = {1: 'An unexpected problem has occurred.  Your connection has 
  151: 'You have been logged out by an administrator working on the servers.',
  152: "There has been a reported violation of our Terms of Use connected to '%(name)s'. For more details, please review the message sent to the e-mail address associated with '%(name)s'.",
  153: 'The district you were playing on has been reset.  Everyone who was playing on that district has been disconnected.  However, you should be able to connect again and go right back into the game.',
- 154: 'Sketchedtown Infinite is now temporarily closed for maintenance. Everyone who was playing has been disconnected from the game.\n\nFor more information, please visit the Sketchedtown Infinite website.',
+ 154: 'Toontown Sketched 7 is now temporarily closed for maintenance. Everyone who was playing has been disconnected from the game.\n\nFor more information, please visit the Toontown Sketched 7 website.',
  288: 'Sorry, you have used up all of your available minutes this month.',
  349: 'Sorry, you have used up all of your available minutes this month.'}
 CRBootedReasonUnknownCode = 'An unexpected problem has occurred (error code %s).  Your connection has been lost, but you should be able to connect again and go right back into the game.'
@@ -203,8 +203,8 @@ CRServerConstantsProxyNoPort = 'Unable to contact %s.\n\nYou are communicating t
 CRServerConstantsProxyNoCONNECT = 'Unable to contact %s.\n\nYou are communicating to the internet via a proxy, but your proxy does not support the CONNECT method.\n\nYou must enable this capability, or disable your proxy, in order to play.  If your proxy has been provided by your ISP, you must contact your ISP to request them to enable this capability.'
 CRServerConstantsTryAgain = 'Unable to contact %s.\n\nThe account server might be temporarily down, or there might be some problem with your internet connection.\n\nTry again?'
 CRServerDateTryAgain = 'Could not get server date from %s. Try again?'
-CRMaintenanceCountdownMessage = 'Attention Sketcheds! Sketchedtown Infinite will be going down for maintenance in %d minutes.'
-CRMaintenanceMessage = 'Attention Sketcheds! Sketchedtown Infinite is now going down for maintenance.'
+CRMaintenanceCountdownMessage = 'Attention Sketcheds! Toontown Sketched 7 will be going down for maintenance in %d minutes.'
+CRMaintenanceMessage = 'Attention Sketcheds! Toontown Sketched 7 is now going down for maintenance.'
 AfkForceAcknowledgeMessage = 'Your Sketched got sleepy and went to bed.'
 PeriodTimerWarning = 'Your available time is almost over!'
 PeriodForceAcknowledgeMessage = 'Sorry, you have used up all of your available time. Please exit to purchase more.'
@@ -315,7 +315,7 @@ FriendSecretNeedsPasswordWarningOK = lOK
 FriendSecretNeedsPasswordWarningCancel = lCancel
 FriendSecretNeedsPasswordWarningWrongUsername = "That's not the correct username.  Please enter the username of the parental account.  This is not the same username used to play the game."
 FriendSecretNeedsPasswordWarningWrongPassword = "That's not the correct password.  Please enter the password of the parental account.  This is not the same password used to play the game."
-FriendSecretIntro = "If you are playing Sketchedtown Infinite with someone you know in the real world, you can become True Sevens.  You can chat using the keyboard with your True Sevens.  Other Sketcheds won't understand what you're saying.\n\nYou do this by getting a True Seven Code.  Tell the True Seven Code to your Sketched, but not to anyone else.  When your Sketched types in your True Seven Code on his or her screen, you'll be True Sevens in Sketchedtown!"
+FriendSecretIntro = "If you are playing Toontown Sketched 7 with someone you know in the real world, you can become True Sevens.  You can chat using the keyboard with your True Sevens.  Other Sketcheds won't understand what you're saying.\n\nYou do this by getting a True Seven Code.  Tell the True Seven Code to your Sketched, but not to anyone else.  When your Sketched types in your True Seven Code on his or her screen, you'll be True Sevens in Toontown Sketched 7!"
 FriendSecretGetSecret = 'Get a True Seven Code'
 FriendSecretEnterSecret = 'If you have a True Seven Code from someone you know, type it here.'
 FriendSecretOK = lOK
@@ -339,7 +339,7 @@ FriendSecretDetermineSecret = 'What type of True Seven would you like to make?'
 FriendSecretDetermineSecretAvatar = 'Avatar'
 FriendSecretDetermineSecretAvatarRollover = 'A friend only in this game'
 FriendSecretDetermineSecretAccount = 'Account'
-FriendSecretDetermineSecretAccountRollover = 'A friend across the Sketchedtown Infinite network'
+FriendSecretDetermineSecretAccountRollover = 'A friend across the Toontown Sketched 7 network'
 GuildMemberTitle = 'Member Options'
 GuildMemberPromote = 'Make Officer'
 GuildMemberPromoteInvite = 'Make Veteran'
@@ -906,7 +906,7 @@ SpeedChatStaticTextToontown = {100: 'Hi!',
  103: 'Hey!',
  104: 'Howdy!',
  105: 'Hi everybody!',
- 106: 'Welcome to Sketchedtown Infinite!',
+ 106: 'Welcome to Toontown Sketched 7!',
  107: "What's up?",
  108: 'How are you doing?',
  109: 'Hello?',
@@ -1950,18 +1950,18 @@ SpeedChatStaticTextToontown = {100: 'Hi!',
  30450: "It's easy to be green!",
  30451: 'Visit Green Bean Jeans and you can be green too!',
  30452: "It's on Oak Street in Daisy Gardens.",
- 30500: "Welcome to Sketchedtown Infinite!",
+ 30500: "Welcome to Toontown Sketched 7!",
  30501: "The Possibilities are Infinite.",
  30502: "Are you livestreaming?",
  30503: "I'm livestreaming right now!",
- 30504: "I can't wait until the next Sketchedtown Infinite update!",
+ 30504: "I can't wait until the next Toontown Sketched 7 update!",
  30505: "Did you know the TTI team works overtime to make the experience the best it can be?",
  30506: "I can't stand that bug!",
  30507: "Have you found any bugs yet?",
  30508: "I hope that bug gets fixed soon.",
  30509: "What types of bugs have you ran into so far?",
  30510: "Those bugs can get more obnoxious than the Sevens sometimes.",
- 30511: "You can report bugs by clicking the Report a Bug button on the Sketchedtown Infinite launcher."}
+ 30511: "You can report bugs by clicking the Report a Bug button on the Toontown Sketched 7 launcher."}
 SpeedChatStaticTextPirates = {50001: 'Aye',
  50002: 'Nay',
  50003: 'Yes',
