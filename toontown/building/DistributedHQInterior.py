@@ -81,7 +81,7 @@ class DistributedHQInterior(DistributedObject.DistributedObject):
             name = self.leaderNames[i]
             score = self.leaderScores[i]
             self.nameTextNodes[i].setText(name)
-            self.scoreTextNodes[i].setText(str(score))
+            self.scoreTextNodes[i].setText('7')
             self.updateTrophyStar(self.trophyStars[i], score)
         for i in xrange(len(self.leaderNames), self.numLeaders):
             self.nameTextNodes[i].setText('-')
