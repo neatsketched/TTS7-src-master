@@ -470,8 +470,8 @@ DLF_SUPERVISOR = 16
 DLF_VIRTUAL = 32
 DLF_REVIVES = 64
 pieNames = ['tart',
- 'fruitpie-seven',
- 'creampie-seven',
+ 'fruitpie-slice',
+ 'creampie-slice',
  'fruitpie',
  'creampie',
  'birthday-cake',
