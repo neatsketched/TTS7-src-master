@@ -7637,6 +7637,7 @@ NPCToonNames = {20000: 'Tutorial Tom',
 # Start with 91913.
 91917: 'Magic Cat',
 91918: 'Trap Cat',
+77779: 'Seven',
 77777: 'Syd Sonata',
 77778: 'Jake'}
 
