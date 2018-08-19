@@ -7637,7 +7637,8 @@ NPCToonNames = {20000: 'Tutorial Tom',
 # Start with 91913.
 91917: 'Magic Cat',
 91918: 'Trap Cat',
-77777: 'Syd Sonata'}
+77777: 'Syd Sonata',
+77778: 'Jake'}
 
 zone2TitleDict = {2513: ('Sketched Hall', ''),
  2514: ('Sketchedtown Bank', ''),
