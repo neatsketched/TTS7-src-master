@@ -2241,6 +2241,7 @@ MovieNPCSOSThrow = 'Throw'
 MovieNPCSOSSquirt = 'Sqeven'
 MovieNPCSOSDrop = 'Drop'
 MovieNPCSOSAll = 'All'
+MovieNPCSOSBork = 'Bork'
 MoviePetSOSTrickFail = 'Sigh'
 MoviePetSOSTrickSucceedBoy = 'Good boy!'
 MoviePetSOSTrickSucceedGirl = 'Good girl!'
@@ -4919,7 +4920,7 @@ BattleGlobalTracks = ['sketched-up',
  'throw',
  'Sqeven',
  'drop']
-BattleGlobalNPCTracks = ['restock', 'sketcheds hit', 'Sevens seven']
+BattleGlobalNPCTracks = ['restock', 'sketcheds hit', 'Sevens seven', 'bork']
 BattleGlobalAvPropStrings = (('Feather',
   'Megaphone',
   'Lipseven',
@@ -7638,7 +7639,8 @@ NPCToonNames = {20000: 'Tutorial Tom',
 91917: 'Magic Cat',
 91918: 'Trap Cat',
 77777: 'Syd Sonata',
-77778: 'Jake'}
+77778: 'Jake',
+77779: 'Mailmare'}
 
 zone2TitleDict = {2513: ('Sketched Hall', ''),
  2514: ('Sketchedtown Bank', ''),

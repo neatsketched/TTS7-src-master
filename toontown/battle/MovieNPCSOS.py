@@ -31,10 +31,14 @@ def __toonsHit(attack, level, hp):
 def __restockGags(attack, level, hp):
     return __doRestockGags(attack, level, hp)
 
+def __borkTrack(attack, level, hp):
+    return __doBorkTrack(attack, level, hp)
+
 
 NPCSOSfn_dict = {ToontownBattleGlobals.NPC_COGS_MISS: __cogsMiss,
  ToontownBattleGlobals.NPC_TOONS_HIT: __toonsHit,
- ToontownBattleGlobals.NPC_RESTOCK_GAGS: __restockGags}
+ ToontownBattleGlobals.NPC_RESTOCK_GAGS: __restockGags,
+ ToontownBattleGlobals.NPC_BORK_TRACK: __borkTrack}
 
 def doNPCSOSs(NPCSOSs):
     if len(NPCSOSs) == 0:
@@ -119,6 +123,11 @@ def teleportIn(attack, npc, pos = Point3(0, 0, 0), hpr = Vec3(180.0, 0.0, 0.0)):
         magicCatTrack.append(Func(npc.setChatAbsolute, "I've got this, so start dancing!", CFSpeech | CFTimeout))
         magicCatTrack.append(Func(attack['toon'].loop, 'victory'))
         seq.append(magicCatTrack)
+    if npc.getName() == 'Mailmare':
+        mailmareTrack = Sequence()
+        mailmareTrack.append(Func(npc.setChatAbsolute, "Bork.", CFSpeech | CFTimeout))
+        mailmareTrack.append(Func(attack['toon'], 'shrug'))
+        seq.append(mailmareTrack)
     return seq
 
 
@@ -165,6 +174,15 @@ def __doSprinkle(attack, recipients, hp = 0):
         return
     targets = attack[recipients]
     level = 4
+    battle = attack['battle']
+    track = Sequence(teleportIn(attack, toon))
+
+def __doSpeech(attack, recipients, hp = 0):
+    toon = NPCToons.createLocalNPC(attack['npcId'])
+    if toon == None:
+        return
+    targets = attack[recipients]
+    level = 0
     battle = attack['battle']
     track = Sequence(teleportIn(attack, toon))
 
@@ -246,6 +264,12 @@ def __doCogsMiss(attack, level, hp):
     track = __doSprinkle(attack, 'suits', hp)
     pbpText = attack['playByPlayText']
     pbpTrack = pbpText.getShowInterval(TTLocalizer.MovieNPCSOSCogsMiss, track.getDuration())
+    return (track, pbpTrack)
+
+def __doBorkTrack(attack, level, hp):
+    track = __doSpeech(attack, 'suits', hp)
+    pbpText = attack['playByPlayText']
+    pbpTrack = pbpText.getShowInterval(TTLocalizer.MovieNPCSOSBork, track.getDuration())
     return (track, pbpTrack)
 
 
