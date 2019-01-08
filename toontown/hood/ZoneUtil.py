@@ -16,6 +16,9 @@ def isCogHQZone(zoneId):
 def isMintInteriorZone(zoneId):
     return zoneId in (CashbotMintIntA, CashbotMintIntB, CashbotMintIntC)
 
+def isLawOfficeInteriorZone(zoneId):
+    return zoneId in (LawbotStageIntA, LawbotStageIntB, LawbotStageIntC, LawbotStageIntD, LawbotStageIntsEven)
+
 
 def isDynamicZone(zoneId):
     return zoneId >= DynamicZonesBegin and zoneId < DynamicZonesEnd
