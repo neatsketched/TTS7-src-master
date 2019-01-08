@@ -589,7 +589,6 @@ def __doOpera(sound, delay, toon, targets, level):
         tracks.append(soundTrack)
     return tracks
 
-
 def setPosFromOther(dest, source, offset = Point3(0, 0, 0)):
     pos = render.getRelativePoint(source, offset)
     dest.setPos(pos)

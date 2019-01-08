@@ -96,7 +96,7 @@ def getWhereName(zoneId, isToon):
                 where = 'cogHQLobby'
             elif suffix == 200:
                 where = 'factoryExterior'
-            elif getHoodId(zoneId) == LawbotHQ and suffix in (300, 400, 500, 600):
+            elif getHoodId(zoneId) == LawbotHQ and suffix in (300, 400, 500, 600, 700):
                 where = 'stageInterior'
             elif getHoodId(zoneId) == BossbotHQ and suffix in (500, 600, 700):
                 where = 'countryClubInterior'

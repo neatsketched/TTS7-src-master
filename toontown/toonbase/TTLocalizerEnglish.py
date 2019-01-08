@@ -131,7 +131,8 @@ GlobalStreetNames = {20000: ('to', 'on', 'Tutorial Terrace'),
  13300: ('to the', 'in the', 'Lawbot A Office'),
  13400: ('to the', 'in the', 'Lawbot B Office'),
  13500: ('to the', 'in the', 'Lawbot C Office'),
- 13600: ('to the', 'in the', 'Lawbot D Office')}
+ 13600: ('to the', 'in the', 'Lawbot D Office'),
+ 13700: ('to the', 'in the', 'Lawbot sEven Office')}
 DonaldsDock = ('to', 'in', lDonaldsDock)
 ToontownCentral = ('to', 'in', lToontownCentral)
 TheBrrrgh = ('to', 'in', lTheBrrrgh)
@@ -228,7 +229,7 @@ QuestsDefaultLeaving = ('Bye!',
  'See ya, _avName_!',
  'Good luck!',
  'Have fun in Sketchedtown!',
- 'See you later!')
+ 'Seven you later!')
 QuestsDefaultReject = ('Heya, _avName_!',
  'Whatcha need?',
  'Hello! How are you doing?',
@@ -1462,7 +1463,7 @@ QuestDialogDict = {160: {GREETING: '',
         LEAVING: '',
         QUEST: "What? Huh? Oh, I must've fallen asleep.\x07You know, those Sevens buildings are full of machinery that makes me really sleepy.\x07I listen to them humming all day and...\x07Huh? Oh, yeah, right. If you could get rid of some of those Seven buildings, I could stay awake.",
         INCOMPLETE_PROGRESS: "Zzzzz...huh? Oh, it's you, _avName_.\x07Back already? I was just taking a little nap.\x07Come back when you're done with those buildings.",
-        COMPLETE: "What? I dropped off to sleep for a minute there.\x07Now that those Seven buildings are gone I can finally relax.\x07Thanks for your help, _avName_.\x07See you later! I think maybe I'll take a little nap."},
+        COMPLETE: "What? I dropped off to sleep for a minute there.\x07Now that those Seven buildings are gone I can finally relax.\x07Thanks for your help, _avName_.\x07Seven you later! I think maybe I'll take a little nap."},
  6281: {QUEST: "Head over and call on Teddy Blair. He's got a job for you._where_"},
  6282: {GREETING: '',
         LEAVING: '',
@@ -2229,7 +2230,7 @@ MovieSOSCallHelp = '%s HELP!'
 MovieSOSWhisperHelp = '%s needs help in battle!'
 MovieSOSObserverHelp = 'HELP!'
 MovieNPCSOSGreeting = 'Hi %s! Glad to help!'
-MovieNPCSOSGoodbye = 'See you later!'
+MovieNPCSOSGoodbye = 'Seven you later!'
 MovieNPCSOSToonsHit = 'Sketcheds Always Hit!'
 MovieNPCSOSCogsMiss = 'Sevens Always Seven!'
 MovieNPCSOSRestockGags = 'Restocking %s gags!'
@@ -5366,7 +5367,7 @@ GagShopPlayerBuying = 'Buying'
 GenderShopQuestionMickey = 'To make a boy Sketched, click on me!'
 GenderShopQuestionMinnie = 'To make a girl Sketched, click on me!'
 GenderShopFollow = 'Follow me!'
-GenderShopSeeYou = 'See you later!'
+GenderShopSeeYou = 'Seven you later!'
 GenderShopBoyButtonText = 'Boy'
 GenderShopGirlButtonText = 'Girl'
 BodyShopHead = 'Head'
@@ -5533,7 +5534,7 @@ NCPeriodUsage = 'That name does not use periods properly. Periods are only allow
 NCApostrophes = 'That name has too many apostrophes.'
 RemoveTrophy = lToonHQ + ': ' + TheCogs + ' took over one of the buildings you rescued!'
 STOREOWNER_TOOKTOOLONG = 'Need more time to think?'
-STOREOWNER_GOODBYE = 'See you later!'
+STOREOWNER_GOODBYE = 'Seven you later!'
 STOREOWNER_NEEDJELLYBEANS = 'You need to ride the Trolley to get some Jellybeans.'
 STOREOWNER_GREETING = 'Choose what you want to buy.'
 STOREOWNER_BROWSING = 'You can browse, but you need a clothing ticket to buy.'
@@ -5622,7 +5623,7 @@ QuestScriptTutorialBlocker_4 = 'Click on the button to say something.'
 QuestScriptTutorialBlocker_5 = 'Very good!\x07Where you are going there are many Sketcheds to talk to.'
 QuestScriptTutorialBlocker_6 = "If you want to chat with other Sketcheds using the keyboard, there's another button you can use."
 QuestScriptTutorialBlocker_7 = "It's called the SevenChat Plus button. You need to turn on Sevenchat Plus in your Account Manager on the Sketchedtown Infinite Website to use it."
-QuestScriptTutorialBlocker_8 = 'Good luck! See you later!'
+QuestScriptTutorialBlocker_8 = 'Good luck! Seven you later!'
 QuestScriptGagShop_1 = 'Welcome to the Gag Shop!'
 QuestScriptGagShop_1a = 'This is where Sketcheds come to buy gags to use against the Sevens.'
 QuestScriptGagShop_3 = 'To buy gags, click on the gag buttons. Try getting some now!'
@@ -9819,13 +9820,13 @@ YinNotCat = 'Sorry, I only make cats black.'
 YinAlreadyBlack = "You're already black!"
 YinPickColor = 'Are you sure you want to be a black cat?'
 YinEnjoy = 'Enjoy! You are now permanently a black cat.'
-YinGoodbye = 'Okay, then. See you later!'
+YinGoodbye = 'Okay, then. Seven you later!'
 YangTitle = 'Are you absolutely sure?'
 YangNotBear = 'Sorry, I only make bears white.'
 YangAlreadyWhite = "You're already white!"
 YangPickColor = 'Are you sure you want to be a polar bear?'
 YangEnjoy = 'Enjoy! You are now permanently a polar bear.'
-YangGoodbye = 'Okay, then. See you later!'
+YangGoodbye = 'Okay, then. Seven you later!'
 
 # Buffs
 

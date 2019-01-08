@@ -126,7 +126,6 @@ def teleportIn(attack, npc, pos = Point3(0, 0, 0), hpr = Vec3(180.0, 0.0, 0.0)):
     if npc.getName() == 'Mailmare':
         mailmareTrack = Sequence()
         mailmareTrack.append(Func(npc.setChatAbsolute, "Bork.", CFSpeech | CFTimeout))
-        mailmareTrack.append(Func(attack['toon'], 'shrug'))
         seq.append(mailmareTrack)
     return seq
 
@@ -134,6 +133,8 @@ def teleportIn(attack, npc, pos = Point3(0, 0, 0), hpr = Vec3(180.0, 0.0, 0.0)):
 def teleportOut(attack, npc):
     if npc.getName() == 'Trap Cat':
         a = ActorInterval(npc, 'neutral')
+    elif npc.getName() == 'Mailmare':
+        a = ActorInterval(npc, 'shrug')
     else:
         if npc.style.getGender() == 'm':
             a = ActorInterval(npc, 'bow')
@@ -141,6 +142,8 @@ def teleportOut(attack, npc):
             a = ActorInterval(npc, 'curtsy')
     if npc.getName() == 'Trap Cat':
         b = Func(npc.setChatAbsolute, 'Drat, my hacks failed... Oh well, I will just disconnect you all!', CFSpeech | CFTimeout)
+    elif npc.getName() == 'Mailmare':
+        b = Func(npc.setChatAbsolute, 'Bork?', CFSpeech | CFTimeout)
     else:
         b = Func(npc.setChatAbsolute, TTLocalizer.MovieNPCSOSGoodbye, CFSpeech | CFTimeout)
     if npc.getName() == 'Trap Cat':

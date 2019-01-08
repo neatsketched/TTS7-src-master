@@ -33,3 +33,5 @@ echo ===============================
                --astron-ip %ASTRON_IP% --eventlogger-ip %EVENTLOGGER_IP% ^
                --district-name "%DISTRICT_NAME%"
 goto main
+
+pause

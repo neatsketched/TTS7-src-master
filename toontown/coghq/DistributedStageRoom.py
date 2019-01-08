@@ -11,6 +11,7 @@ import StageRoomSpecs
 from otp.level import LevelSpec, LevelConstants
 from toontown.toonbase import TTLocalizer
 from toontown.nametag.NametagGlobals import *
+from toontown.chat.ChatGlobals import CFThought, CFTimeout
 if __dev__:
     from otp.level import EditorGlobals
 
