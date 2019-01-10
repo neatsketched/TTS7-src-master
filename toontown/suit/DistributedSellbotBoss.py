@@ -185,6 +185,7 @@ class DistributedSellbotBoss(DistributedBossCog.DistributedBossCog, FSM.FSM):
         self.doobers = doobers
 
     def setBossDamage(self, bossDamage, recoverRate, timestamp):
+        self.bossHealthBar.update(self.bossMaxDamage - bossDamage, self.bossMaxDamage)
         recoverStartTime = globalClockDelta.networkToLocalTime(timestamp)
         self.bossDamage = bossDamage
         self.recoverRate = recoverRate
@@ -894,6 +895,7 @@ class DistributedSellbotBoss(DistributedBossCog.DistributedBossCog, FSM.FSM):
         self.bossDamageToMovie = self.bossDamageMovie.getDuration() / self.bossMaxDamage
         self.bossDamageMovie.setT(self.bossDamage * self.bossDamageToMovie)
         base.playMusic(self.battleThreeMusic, looping=1, volume=0.9)
+        self.bossHealthBar.initialize()
 
     def __doneBattleThree(self):
         self.setState('NearVictory')

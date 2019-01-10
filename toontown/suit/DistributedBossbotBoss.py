@@ -666,6 +666,7 @@ class DistributedBossbotBoss(DistributedBossCog.DistributedBossCog, FSM.FSM):
             toon = self.cr.doId2do.get(toonId)
             if toon:
                 toon.takeOffSuit()
+        self.bossHealthBar.initialize()
 
         self.bossClub.reparentTo(self.rightHandJoint)
         self.generateHealthBar()
@@ -683,6 +684,7 @@ class DistributedBossbotBoss(DistributedBossCog.DistributedBossCog, FSM.FSM):
         self.sendUpdate('ballHitBoss', [bossDamage])
 
     def setBossDamage(self, bossDamage, recoverRate, recoverStartTime):
+        self.bossHealthBar.update(self.bossMaxDamage - bossDamage, self.bossMaxDamage)
         if bossDamage > self.bossDamage:
             delta = bossDamage - self.bossDamage
             self.flashRed()

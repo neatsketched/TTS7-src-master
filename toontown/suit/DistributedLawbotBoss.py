@@ -32,6 +32,7 @@ from toontown.toonbase import TTLocalizer
 from toontown.toonbase import ToontownBattleGlobals
 from toontown.toonbase import ToontownGlobals
 from toontown.toonbase import ToontownTimer
+from toontown.coghq import BossHealthBar
 
 
 OneBossCog = None
@@ -228,6 +229,7 @@ class DistributedLawbotBoss(DistributedBossCog.DistributedBossCog, FSM.FSM):
         return
 
     def setBossDamage(self, bossDamage, recoverRate, timestamp):
+        self.bossHealthBar.update(self.bossMaxDamage - bossDamage, self.bossMaxDamage)
         recoverStartTime = globalClockDelta.networkToLocalTime(timestamp)
         self.bossDamage = bossDamage
         self.recoverRate = recoverRate
@@ -961,6 +963,7 @@ class DistributedLawbotBoss(DistributedBossCog.DistributedBossCog, FSM.FSM):
         self.stickBossToFloor()
         self.setPosHpr(*ToontownGlobals.LawbotBossBattleThreePosHpr)
         self.bossMaxDamage = ToontownGlobals.LawbotBossMaxDamage
+        self.bossHealthBar.initialize()
         base.playMusic(self.battleThreeMusic, looping=1, volume=0.9)
         self.__showWitnessToon()
         #diffSettings = ToontownGlobals.LawbotBossDifficultySettings[self.battleDifficulty]

@@ -61,7 +61,7 @@ class Hood(StateData.StateData):
         self.titleText.setFg(self.titleColor)
         seq = Sequence(Wait(0.1), Wait(6.0), self.titleText.colorScaleInterval(0.5, Vec4(1.0, 1.0, 1.0, 0.0)), Func(self.titleText.hide))
         seq.start()
-
+        
     def hideTitleText(self):
         if self.titleText:
             self.titleText.hide()
