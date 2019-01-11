@@ -11,12 +11,12 @@ class BossHealthBar:
         return
 
     def initialize(self):
-        print('Initializing Boss Health Bar...')
+        # Initializing boss HP bar
         self.smallTitleText.show()
 
     def update(self, hp, maxhp):
         self.smallTitleText.setText('%s / %s' % (str(hp), str(maxhp)))
-        print('Updating Boss HP Bar...')
+        # Updating Boss HP Bar
 
     def cleanUp(self):
         if self.smallTitleText:
